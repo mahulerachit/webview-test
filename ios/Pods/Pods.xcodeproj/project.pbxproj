@@ -1,0 +1,1665 @@
+// !$*UTF8*$!
+{
+	archiveVersion = 1;
+	classes = {
+	};
+	objectVersion = 54;
+	objects = {
+
+/* Begin PBXAggregateTarget section */
+		1EFDDC32A34D56D411E640A81DCD9E73 /* Flutter */ = {
+			isa = PBXAggregateTarget;
+			buildConfigurationList = 94078A06C17E946ADC1F2C06726219E5 /* Build configuration list for PBXAggregateTarget "Flutter" */;
+			buildPhases = (
+			);
+			dependencies = (
+			);
+			name = Flutter;
+		};
+/* End PBXAggregateTarget section */
+
+/* Begin PBXBuildFile section */
+		0250E89FC169A8B98C292AEA5B5AF161 /* SslCertificate.swift in Sources */ = {isa = PBXBuildFile; fileRef = B79E42BAD5E73C70AC7F535E2C76911D /* SslCertificate.swift */; settings = {COMPILER_FLAGS = "-DOS_OBJECT_USE_OBJC=0"; }; };
+		08FD48F0DF76E752FC803004A3751F47 /* URLCredential.swift in Sources */ = {isa = PBXBuildFile; fileRef = 78A669A7A3A2D21DCA289910B084F3D6 /* URLCredential.swift */; settings = {COMPILER_FLAGS = "-DOS_OBJECT_USE_OBJC=0"; }; };
+		0A240ED092B6874978429829EAD92BD8 /* ContextMenuOptions.swift in Sources */ = {isa = PBXBuildFile; fileRef = FBE59EEBE308F1FCEDF2F2207AB3CC35 /* ContextMenuOptions.swift */; settings = {COMPILER_FLAGS = "-DOS_OBJECT_USE_OBJC=0"; }; };
+		10A057B3A45DF50991A5027873BFEAC2 /* PrintJS.swift in Sources */ = {isa = PBXBuildFile; fileRef = 35FE80456088A2ED652D03D00E025C4B /* PrintJS.swift */; settings = {COMPILER_FLAGS = "-DOS_OBJECT_USE_OBJC=0"; }; };
+		115D8686384A8B9D92F30FEC387DE83E /* InAppWebViewFlutterPlugin.h in Headers */ = {isa = PBXBuildFile; fileRef = A05C202BBD590EBDFA496E52033B2E92 /* InAppWebViewFlutterPlugin.h */; settings = {ATTRIBUTES = (Project, ); }; };
+		11CC54C754FBC675D2469677D3A58C31 /* WebMessageChannelJS.swift in Sources */ = {isa = PBXBuildFile; fileRef = E427CB1F12F138634D09CC7EB4CFFD46 /* WebMessageChannelJS.swift */; settings = {COMPILER_FLAGS = "-DOS_OBJECT_USE_OBJC=0"; }; };
+		11CE19DCF0E28D73E0AA42B807454C58 /* InAppBrowserOptions.swift in Sources */ = {isa = PBXBuildFile; fileRef = AAA1024DB63088E442EAD6EE32100D2A /* InAppBrowserOptions.swift */; settings = {COMPILER_FLAGS = "-DOS_OBJECT_USE_OBJC=0"; }; };
+		139665E3F31D4BDFEBF2BC5BF2186642 /* OnLoadResourceJS.swift in Sources */ = {isa = PBXBuildFile; fileRef = 3D101DB38F5914580EE7FCC0AF9B2E61 /* OnLoadResourceJS.swift */; settings = {COMPILER_FLAGS = "-DOS_OBJECT_USE_OBJC=0"; }; };
+		163EC2A5B36858FB9563599FADF402A0 /* LastTouchedAnchorOrImageJS.swift in Sources */ = {isa = PBXBuildFile; fileRef = 1A51D0EB45D0C6F36069FE4D8DC27E53 /* LastTouchedAnchorOrImageJS.swift */; settings = {COMPILER_FLAGS = "-DOS_OBJECT_USE_OBJC=0"; }; };
+		2152B567E41AA8FF7E1C7D35C7E7409E /* WebMessageListener.swift in Sources */ = {isa = PBXBuildFile; fileRef = E3BFD8439C8B4DAD9334AB105C0B9465 /* WebMessageListener.swift */; settings = {COMPILER_FLAGS = "-DOS_OBJECT_USE_OBJC=0"; }; };
+		22D9475997AFCA381C1D9F6407FE3A0C /* InAppWebViewStatic.swift in Sources */ = {isa = PBXBuildFile; fileRef = 20EB7173915709A03505B9E70D260C66 /* InAppWebViewStatic.swift */; settings = {COMPILER_FLAGS = "-DOS_OBJECT_USE_OBJC=0"; }; };
+		243E901CAF466A71763D4056314769D5 /* HttpAuthenticationChallenge.swift in Sources */ = {isa = PBXBuildFile; fileRef = CF69C607436DA9B355B1BBA31007ED99 /* HttpAuthenticationChallenge.swift */; settings = {COMPILER_FLAGS = "-DOS_OBJECT_USE_OBJC=0"; }; };
+		244337F652C75AAED0D4DCF27CF76FB8 /* InAppWebView.swift in Sources */ = {isa = PBXBuildFile; fileRef = 97E631698AF340E5CC41ABE3CF07E979 /* InAppWebView.swift */; settings = {COMPILER_FLAGS = "-DOS_OBJECT_USE_OBJC=0"; }; };
+		2908C0677BFA1FAF1E1F17DA17CF5DFF /* ServerTrustChallenge.swift in Sources */ = {isa = PBXBuildFile; fileRef = EE05812E0BD5EE25C18EEC39100B3AAD /* ServerTrustChallenge.swift */; settings = {COMPILER_FLAGS = "-DOS_OBJECT_USE_OBJC=0"; }; };
+		2B319DBC63A7017FCDE3BEC8059F2176 /* WKProcessPoolManager.swift in Sources */ = {isa = PBXBuildFile; fileRef = 111B1BF4D781DF52420B139EF88AADB9 /* WKProcessPoolManager.swift */; settings = {COMPILER_FLAGS = "-DOS_OBJECT_USE_OBJC=0"; }; };
+		2D908E5792104644DC658D4D99168ED0 /* UserScript.swift in Sources */ = {isa = PBXBuildFile; fileRef = B411B7C0B7812CCA26D31C1B248FFAED /* UserScript.swift */; settings = {COMPILER_FLAGS = "-DOS_OBJECT_USE_OBJC=0"; }; };
+		307208FE3D51BA01B8F5ADAA8A08DBF3 /* FlutterMethodCallDelegate.swift in Sources */ = {isa = PBXBuildFile; fileRef = BAF0E8A0A7F69260D15356C8CCB2FC8A /* FlutterMethodCallDelegate.swift */; settings = {COMPILER_FLAGS = "-DOS_OBJECT_USE_OBJC=0"; }; };
+		317BD3A0562350FF3206372E44B194EE /* WKSecurityOrigin.swift in Sources */ = {isa = PBXBuildFile; fileRef = 1EB1CCDC8360A794510B6005C17FF49A /* WKSecurityOrigin.swift */; settings = {COMPILER_FLAGS = "-DOS_OBJECT_USE_OBJC=0"; }; };
+		325DFEEB993BECA4D487103FD99DBFE0 /* InAppBrowserNavigationController.swift in Sources */ = {isa = PBXBuildFile; fileRef = 077BA746DDD617594DC39C7617E0B13D /* InAppBrowserNavigationController.swift */; settings = {COMPILER_FLAGS = "-DOS_OBJECT_USE_OBJC=0"; }; };
+		3A814D3F4B4B58DAB834CC4C3713AF7B /* InAppBrowserDelegate.swift in Sources */ = {isa = PBXBuildFile; fileRef = E7060C7F1A664E021C637B590E8922BD /* InAppBrowserDelegate.swift */; settings = {COMPILER_FLAGS = "-DOS_OBJECT_USE_OBJC=0"; }; };
+		3B0679EE2DB4972713C5126AE8934FDE /* NSAttributedString.swift in Sources */ = {isa = PBXBuildFile; fileRef = EE9F71DD92036DAC435648F52B46A4DC /* NSAttributedString.swift */; settings = {COMPILER_FLAGS = "-DOS_OBJECT_USE_OBJC=0"; }; };
+		3BC99150B337E0569417082F3928A7B1 /* FlutterWebViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = 6C245492B25BD35BE256EDDDD122F87A /* FlutterWebViewController.swift */; settings = {COMPILER_FLAGS = "-DOS_OBJECT_USE_OBJC=0"; }; };
+		3D5643E1A90FC939C4E41185DD289DA7 /* HeadlessInAppWebView.swift in Sources */ = {isa = PBXBuildFile; fileRef = 1003EEAF0E54A09D32412E3E482EDF81 /* HeadlessInAppWebView.swift */; settings = {COMPILER_FLAGS = "-DOS_OBJECT_USE_OBJC=0"; }; };
+		42CF902CFCF2E7E2CDE2134DD123E175 /* URLRequest.swift in Sources */ = {isa = PBXBuildFile; fileRef = 903CD2E102CD25AEA3169AE4A87F7D19 /* URLRequest.swift */; settings = {COMPILER_FLAGS = "-DOS_OBJECT_USE_OBJC=0"; }; };
+		46963F44ACB52CBB57E3F44B2FDAE93D /* DownloadStartRequest.swift in Sources */ = {isa = PBXBuildFile; fileRef = BA9D4B6E75246A855DA7507147AC4669 /* DownloadStartRequest.swift */; settings = {COMPILER_FLAGS = "-DOS_OBJECT_USE_OBJC=0"; }; };
+		4E82C5A9E30CB87615A511E534E451C2 /* SwiftFlutterPlugin.swift in Sources */ = {isa = PBXBuildFile; fileRef = CC504E28292D813418B35CEE858441C2 /* SwiftFlutterPlugin.swift */; settings = {COMPILER_FLAGS = "-DOS_OBJECT_USE_OBJC=0"; }; };
+		5085B35D56056B922B80BFF63C9B490C /* SafariViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = 602DDF69E960390656DB3C3BA6553AA4 /* SafariViewController.swift */; settings = {COMPILER_FLAGS = "-DOS_OBJECT_USE_OBJC=0"; }; };
+		55353D6C96715AE791DAFD45681E42FD /* Util.swift in Sources */ = {isa = PBXBuildFile; fileRef = EE4B2980C917E951B4C23EB96CB93A79 /* Util.swift */; settings = {COMPILER_FLAGS = "-DOS_OBJECT_USE_OBJC=0"; }; };
+		57E64BA632D62C82015C893C73F3CC03 /* WebMessageListenerJS.swift in Sources */ = {isa = PBXBuildFile; fileRef = 2313ED0F866E11E6BC566920D61430FC /* WebMessageListenerJS.swift */; settings = {COMPILER_FLAGS = "-DOS_OBJECT_USE_OBJC=0"; }; };
+		5A03FE3D2D45CA2ED09BC1668AA77C5E /* WKWindowFeatures.swift in Sources */ = {isa = PBXBuildFile; fileRef = 697D493455F7C36BD132FED93AFC7A47 /* WKWindowFeatures.swift */; settings = {COMPILER_FLAGS = "-DOS_OBJECT_USE_OBJC=0"; }; };
+		5C460D458037FAA54E00C5B690BBC548 /* UIColor.swift in Sources */ = {isa = PBXBuildFile; fileRef = CC421C6FF210FBC08C32B2B6D7FCB1A9 /* UIColor.swift */; settings = {COMPILER_FLAGS = "-DOS_OBJECT_USE_OBJC=0"; }; };
+		5D97D083CDD44ABFF449C39FC3C59DB3 /* MyWebStorageManager.swift in Sources */ = {isa = PBXBuildFile; fileRef = CABAE7F0D09EEBE2685B024A76C0DD7A /* MyWebStorageManager.swift */; settings = {COMPILER_FLAGS = "-DOS_OBJECT_USE_OBJC=0"; }; };
+		60DE71B45DC997E636210B785A52175B /* CallAsyncJavaScriptBelowIOS14WrapperJS.swift in Sources */ = {isa = PBXBuildFile; fileRef = 73E56835315B133B1849C24190FF468A /* CallAsyncJavaScriptBelowIOS14WrapperJS.swift */; settings = {COMPILER_FLAGS = "-DOS_OBJECT_USE_OBJC=0"; }; };
+		63DCF14229C6B03ABF85774709FAA914 /* ChromeSafariBrowserManager.swift in Sources */ = {isa = PBXBuildFile; fileRef = 3421E002D66876E1182CD350D1A08E34 /* ChromeSafariBrowserManager.swift */; settings = {COMPILER_FLAGS = "-DOS_OBJECT_USE_OBJC=0"; }; };
+		654CA7AD4957C68C89785B6225DB6A58 /* Pods-Runner-umbrella.h in Headers */ = {isa = PBXBuildFile; fileRef = 98FF0987742F984F89345FC7E0684408 /* Pods-Runner-umbrella.h */; settings = {ATTRIBUTES = (Project, ); }; };
+		686AE03A70855DD654DBB1F8E37CA1E5 /* WKUserContentController.swift in Sources */ = {isa = PBXBuildFile; fileRef = 21B7E1FC4CE23F3987A3941B2C030BA2 /* WKUserContentController.swift */; settings = {COMPILER_FLAGS = "-DOS_OBJECT_USE_OBJC=0"; }; };
+		6AB6F20EE014525BC57F4CD6FC9BDB1E /* SafariBrowserOptions.swift in Sources */ = {isa = PBXBuildFile; fileRef = A874F820A07658691314019CECC4B1FB /* SafariBrowserOptions.swift */; settings = {COMPILER_FLAGS = "-DOS_OBJECT_USE_OBJC=0"; }; };
+		6BA5AA651ED7CACA5A1BD02E67E3B6A8 /* WindowIdJS.swift in Sources */ = {isa = PBXBuildFile; fileRef = 17AC7D9131331366796E4D8DDFF0790A /* WindowIdJS.swift */; settings = {COMPILER_FLAGS = "-DOS_OBJECT_USE_OBJC=0"; }; };
+		6D7EB5C0FAC33A49BF232E9F3F3DF489 /* FindElementsAtPointJS.swift in Sources */ = {isa = PBXBuildFile; fileRef = 5E6C0C1D2693DD2B5F048A7A7065DC0B /* FindElementsAtPointJS.swift */; settings = {COMPILER_FLAGS = "-DOS_OBJECT_USE_OBJC=0"; }; };
+		6F064126A56357DF387350105D30E8AE /* PullToRefreshDelegate.swift in Sources */ = {isa = PBXBuildFile; fileRef = 56D00A72A2111DA6B7F176154DC7E9E4 /* PullToRefreshDelegate.swift */; settings = {COMPILER_FLAGS = "-DOS_OBJECT_USE_OBJC=0"; }; };
+		70D7196F32793730BB1B3865A8C3DC64 /* OnWindowFocusEventJS.swift in Sources */ = {isa = PBXBuildFile; fileRef = 614882FD0BC760DB0BF52E7BF09778D7 /* OnWindowFocusEventJS.swift */; settings = {COMPILER_FLAGS = "-DOS_OBJECT_USE_OBJC=0"; }; };
+		7243F68DDC2EABBC9F6462989AE30F2F /* OnWindowBlurEventJS.swift in Sources */ = {isa = PBXBuildFile; fileRef = A65C3453BF9B4B4A4E845F161D4EE173 /* OnWindowBlurEventJS.swift */; settings = {COMPILER_FLAGS = "-DOS_OBJECT_USE_OBJC=0"; }; };
+		72D8226E98FF2A08A8CBB70290CADE9C /* WKContentWorld.swift in Sources */ = {isa = PBXBuildFile; fileRef = AB8EA9B4C0ED9055B0D24EFE4E42B760 /* WKContentWorld.swift */; settings = {COMPILER_FLAGS = "-DOS_OBJECT_USE_OBJC=0"; }; };
+		748D60666FEDA5CA7DA3F1BCD6C75DB6 /* FlutterWebViewFactory.swift in Sources */ = {isa = PBXBuildFile; fileRef = CCC337A10AF731031F7DC3C61E1CAB6E /* FlutterWebViewFactory.swift */; settings = {COMPILER_FLAGS = "-DOS_OBJECT_USE_OBJC=0"; }; };
+		75D671A5499FD1643D2114121D87F91F /* PluginScriptsUtil.swift in Sources */ = {isa = PBXBuildFile; fileRef = B8F86E299D7FBACEA337945E7FF3DB8D /* PluginScriptsUtil.swift */; settings = {COMPILER_FLAGS = "-DOS_OBJECT_USE_OBJC=0"; }; };
+		76CA873C405EC2AA2ADE1F8B1D7E5741 /* URLAuthenticationChallenge.swift in Sources */ = {isa = PBXBuildFile; fileRef = C6DDA4133FF18462396FEC5ED9FC2974 /* URLAuthenticationChallenge.swift */; settings = {COMPILER_FLAGS = "-DOS_OBJECT_USE_OBJC=0"; }; };
+		774422D03A4C5C815863A5DC0E0D754A /* FindTextHighlightJS.swift in Sources */ = {isa = PBXBuildFile; fileRef = 5559055E2B6DBCA300CEF5C1F0B326B4 /* FindTextHighlightJS.swift */; settings = {COMPILER_FLAGS = "-DOS_OBJECT_USE_OBJC=0"; }; };
+		7AA480D61902AA1ACCE8959BA7A2C030 /* WKFrameInfo.swift in Sources */ = {isa = PBXBuildFile; fileRef = C89E3D503A45AABACF4687E60746A519 /* WKFrameInfo.swift */; settings = {COMPILER_FLAGS = "-DOS_OBJECT_USE_OBJC=0"; }; };
+		7B35BF9DF0BEC2A512E546B33FBB77CF /* OrderedSet-dummy.m in Sources */ = {isa = PBXBuildFile; fileRef = 0564053698BF71732FB71651CC872A1D /* OrderedSet-dummy.m */; };
+		7E48CBB74E0301486FB5D8CA83C63F90 /* HeadlessInAppWebViewManager.swift in Sources */ = {isa = PBXBuildFile; fileRef = 7D63BF7B6DEBF59333585A4DD4DCA959 /* HeadlessInAppWebViewManager.swift */; settings = {COMPILER_FLAGS = "-DOS_OBJECT_USE_OBJC=0"; }; };
+		811713816148506259D34F9FC06A8D41 /* InterceptFetchRequestJS.swift in Sources */ = {isa = PBXBuildFile; fileRef = 63E33CE0BD9B369E0B8F4B9976371DEC /* InterceptFetchRequestJS.swift */; settings = {COMPILER_FLAGS = "-DOS_OBJECT_USE_OBJC=0"; }; };
+		86421EEDC2EC02B03890E4C231BD424E /* Options.swift in Sources */ = {isa = PBXBuildFile; fileRef = 4A540D57D0C2109E3FF7ABFBB1F038BA /* Options.swift */; settings = {COMPILER_FLAGS = "-DOS_OBJECT_USE_OBJC=0"; }; };
+		88AA85AC4BBA76E27B251584EBB64F83 /* CredentialDatabase.swift in Sources */ = {isa = PBXBuildFile; fileRef = F741C6B5969C669F7ED08A3D19941C59 /* CredentialDatabase.swift */; settings = {COMPILER_FLAGS = "-DOS_OBJECT_USE_OBJC=0"; }; };
+		89DAE96DF298321A74191DC8C6693F79 /* ConsoleLogJS.swift in Sources */ = {isa = PBXBuildFile; fileRef = 44FADBF9E7272C559CC1E2DC21687033 /* ConsoleLogJS.swift */; settings = {COMPILER_FLAGS = "-DOS_OBJECT_USE_OBJC=0"; }; };
+		8A5ABED494707EDA6DA19312D806FD81 /* InAppBrowserManager.swift in Sources */ = {isa = PBXBuildFile; fileRef = E0F254E8A2A34C62FC20577AB568569F /* InAppBrowserManager.swift */; settings = {COMPILER_FLAGS = "-DOS_OBJECT_USE_OBJC=0"; }; };
+		8D9015287BEAC234E3E85189108EE039 /* HitTestResult.swift in Sources */ = {isa = PBXBuildFile; fileRef = 82B3709DF911BDF3CAA2269254BD8414 /* HitTestResult.swift */; settings = {COMPILER_FLAGS = "-DOS_OBJECT_USE_OBJC=0"; }; };
+		8EC88D10C7AD88AD0BC763AA9C2048D0 /* flutter_inappwebview-dummy.m in Sources */ = {isa = PBXBuildFile; fileRef = B864BF3431ECA5CCD3A61B63EB02C11C /* flutter_inappwebview-dummy.m */; };
+		90E68C857A9A9BFB1BC1969F5D2B2EF0 /* OrderedSet.swift in Sources */ = {isa = PBXBuildFile; fileRef = F2D1E9409D2EB31B2216F73EF417FCA0 /* OrderedSet.swift */; };
+		924EB0DF3AA8AB4789C8B3E1F180DB14 /* CustomeSchemeHandler.swift in Sources */ = {isa = PBXBuildFile; fileRef = 70A3D64F298F912986AE0F8D38B9BA2F /* CustomeSchemeHandler.swift */; settings = {COMPILER_FLAGS = "-DOS_OBJECT_USE_OBJC=0"; }; };
+		970439E2A1F0DFD19A090502A22A0DC0 /* Pods-Runner-dummy.m in Sources */ = {isa = PBXBuildFile; fileRef = 840D0754C1B8831C9E84C7A7777BF023 /* Pods-Runner-dummy.m */; };
+		99C7FD19CE0CE4B4C074550CC536F25B /* PromisePolyfillJS.swift in Sources */ = {isa = PBXBuildFile; fileRef = 02E6EBFD0E3CDA9CD6687EDCD2459755 /* PromisePolyfillJS.swift */; settings = {COMPILER_FLAGS = "-DOS_OBJECT_USE_OBJC=0"; }; };
+		9A6B328BF1BF764C74CECE2A8FF314DA /* PlatformUtil.swift in Sources */ = {isa = PBXBuildFile; fileRef = 1CE4001B187E637CA38462D70A0FB39B /* PlatformUtil.swift */; settings = {COMPILER_FLAGS = "-DOS_OBJECT_USE_OBJC=0"; }; };
+		9DDBABC47C694C305DD224732640E73A /* SecCertificate.swift in Sources */ = {isa = PBXBuildFile; fileRef = 51553344FBDEE4D8BAB62D6542B4C598 /* SecCertificate.swift */; settings = {COMPILER_FLAGS = "-DOS_OBJECT_USE_OBJC=0"; }; };
+		A4A7AE9BC0BA2C6F110D77D19AA1D3E6 /* PluginScript.swift in Sources */ = {isa = PBXBuildFile; fileRef = 33A264343DF49A1A207B52963E7A8757 /* PluginScript.swift */; settings = {COMPILER_FLAGS = "-DOS_OBJECT_USE_OBJC=0"; }; };
+		A8E33E165DEE51CA257EC8A47090CD2E /* flutter_inappwebview-umbrella.h in Headers */ = {isa = PBXBuildFile; fileRef = 59DFB1A4606472369193A23D716C8FC1 /* flutter_inappwebview-umbrella.h */; settings = {ATTRIBUTES = (Project, ); }; };
+		ACCF5280198C46B9411AB1F7CD9FA57A /* JavaScriptBridgeJS.swift in Sources */ = {isa = PBXBuildFile; fileRef = 12C52628C63818008F4DC80CF2A7BD47 /* JavaScriptBridgeJS.swift */; settings = {COMPILER_FLAGS = "-DOS_OBJECT_USE_OBJC=0"; }; };
+		B08FAD5B5AA504DB1710F7DE55ABC8A3 /* Size2D.swift in Sources */ = {isa = PBXBuildFile; fileRef = D128C622F7FF57339BFED13F5CA4639F /* Size2D.swift */; settings = {COMPILER_FLAGS = "-DOS_OBJECT_USE_OBJC=0"; }; };
+		B59DDF9A9112CA120DC696E24D89C104 /* WebViewTransport.swift in Sources */ = {isa = PBXBuildFile; fileRef = 885AB02B66FA4688977437223159AA92 /* WebViewTransport.swift */; settings = {COMPILER_FLAGS = "-DOS_OBJECT_USE_OBJC=0"; }; };
+		BD0B350A4FCB86DA407343282F7A7C29 /* WebMessagePort.swift in Sources */ = {isa = PBXBuildFile; fileRef = 3738784B357C2C02396F2F7C53C803E2 /* WebMessagePort.swift */; settings = {COMPILER_FLAGS = "-DOS_OBJECT_USE_OBJC=0"; }; };
+		C20C5C3842ABD1971470EA5A81AB6196 /* WKNavigationAction.swift in Sources */ = {isa = PBXBuildFile; fileRef = 65E31F24A6D3735900AEC862DD0AEFD6 /* WKNavigationAction.swift */; settings = {COMPILER_FLAGS = "-DOS_OBJECT_USE_OBJC=0"; }; };
+		C88557A9246ABFBBAA5C98362042423D /* SupportZoomJS.swift in Sources */ = {isa = PBXBuildFile; fileRef = 95A9AA95F1F390E0938572534B83D6F8 /* SupportZoomJS.swift */; settings = {COMPILER_FLAGS = "-DOS_OBJECT_USE_OBJC=0"; }; };
+		C9009E8F8B20945CB7D94FB2CE10CD3D /* EnableViewportScaleJS.swift in Sources */ = {isa = PBXBuildFile; fileRef = 1A7EF6DFC8A2A0EDD642B6E1AD07683D /* EnableViewportScaleJS.swift */; settings = {COMPILER_FLAGS = "-DOS_OBJECT_USE_OBJC=0"; }; };
+		CB161E66A0F53C73EA2573EE8C0A670D /* InterceptAjaxRequestJS.swift in Sources */ = {isa = PBXBuildFile; fileRef = 151723777853B0F83B71950A148B7EBB /* InterceptAjaxRequestJS.swift */; settings = {COMPILER_FLAGS = "-DOS_OBJECT_USE_OBJC=0"; }; };
+		CDF8A4ADBAC7C4BBF3F33DF96E695C75 /* OriginalViewPortMetaTagContentJS.swift in Sources */ = {isa = PBXBuildFile; fileRef = C69EBBB97C057ABB6A5D83EDCF668351 /* OriginalViewPortMetaTagContentJS.swift */; settings = {COMPILER_FLAGS = "-DOS_OBJECT_USE_OBJC=0"; }; };
+		D1745CDA11E62191AA1850C5131346B6 /* URLProtectionSpace.swift in Sources */ = {isa = PBXBuildFile; fileRef = 2E1FA3CDCE9ECBBD772BDECB87C1DDB5 /* URLProtectionSpace.swift */; settings = {COMPILER_FLAGS = "-DOS_OBJECT_USE_OBJC=0"; }; };
+		D22FEF97A3CE5B963CEAA1C532E959AA /* InAppWebViewMethodHandler.swift in Sources */ = {isa = PBXBuildFile; fileRef = BDB6B238DDAC5E1D2425A1D83432CAC4 /* InAppWebViewMethodHandler.swift */; settings = {COMPILER_FLAGS = "-DOS_OBJECT_USE_OBJC=0"; }; };
+		D6EAB2F6B6CA60F964E8740BF0381493 /* WebMessage.swift in Sources */ = {isa = PBXBuildFile; fileRef = 622BE525408138052AD0882DB38A2FB7 /* WebMessage.swift */; settings = {COMPILER_FLAGS = "-DOS_OBJECT_USE_OBJC=0"; }; };
+		DBC08B8BA2765E50FF54E2579CDA01F1 /* SslError.swift in Sources */ = {isa = PBXBuildFile; fileRef = BF1EF8012F18B70A6F0692A69A28F46D /* SslError.swift */; settings = {COMPILER_FLAGS = "-DOS_OBJECT_USE_OBJC=0"; }; };
+		E03B9E81AC5DD91687FB32ECD7F0D483 /* WebMessageChannel.swift in Sources */ = {isa = PBXBuildFile; fileRef = 08A9B27046DB69EAA7243662E12E73C7 /* WebMessageChannel.swift */; settings = {COMPILER_FLAGS = "-DOS_OBJECT_USE_OBJC=0"; }; };
+		E1205A561719C8C0409908A7C5500A21 /* URLResponse.swift in Sources */ = {isa = PBXBuildFile; fileRef = 4E920ABDFC66BF295AA3CB0867470D3D /* URLResponse.swift */; settings = {COMPILER_FLAGS = "-DOS_OBJECT_USE_OBJC=0"; }; };
+		E4433B443FFBD16D038DB3C477FA0524 /* InAppWebViewFlutterPlugin.m in Sources */ = {isa = PBXBuildFile; fileRef = 85968A4110EA21F8CECE1603A2FBA42C /* InAppWebViewFlutterPlugin.m */; settings = {COMPILER_FLAGS = "-DOS_OBJECT_USE_OBJC=0"; }; };
+		E8C18C252B5E16A5B4AD778E959AAD00 /* ClientCertChallenge.swift in Sources */ = {isa = PBXBuildFile; fileRef = B7B9C14BC4E2003D210F98B1A897F7B1 /* ClientCertChallenge.swift */; settings = {COMPILER_FLAGS = "-DOS_OBJECT_USE_OBJC=0"; }; };
+		EF5CAFF98846BB0D1E53F7232AF83784 /* InAppBrowserWebViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = 98923F7D29B92F8F729763C15C04FFD1 /* InAppBrowserWebViewController.swift */; settings = {COMPILER_FLAGS = "-DOS_OBJECT_USE_OBJC=0"; }; };
+		FAC317B720156D71C6E477E5749A1C1E /* LeakAvoider.swift in Sources */ = {isa = PBXBuildFile; fileRef = D7C130B6F8C45E48D943349059FD24C1 /* LeakAvoider.swift */; settings = {COMPILER_FLAGS = "-DOS_OBJECT_USE_OBJC=0"; }; };
+		FAD2AF503D6E3477039F988470CAB71F /* PullToRefreshControl.swift in Sources */ = {isa = PBXBuildFile; fileRef = 04B8B2454AE189570DB33C3E554DAF5C /* PullToRefreshControl.swift */; settings = {COMPILER_FLAGS = "-DOS_OBJECT_USE_OBJC=0"; }; };
+		FB8ED5708FAF4140B741092BA32EEB2F /* OrderedSet-umbrella.h in Headers */ = {isa = PBXBuildFile; fileRef = 45F90DC56788DE7D46905E73F2D5DD82 /* OrderedSet-umbrella.h */; settings = {ATTRIBUTES = (Project, ); }; };
+		FD545A3C14345313FC075F164871C105 /* PullToRefreshOptions.swift in Sources */ = {isa = PBXBuildFile; fileRef = FF6B721D87D26FD39E29FC7C85CC8FBF /* PullToRefreshOptions.swift */; settings = {COMPILER_FLAGS = "-DOS_OBJECT_USE_OBJC=0"; }; };
+		FEDC9B52CEDD1856A522904D792F8361 /* WKNavigationResponse.swift in Sources */ = {isa = PBXBuildFile; fileRef = D7346122A77B1E0E4A30ABE0D08388D7 /* WKNavigationResponse.swift */; settings = {COMPILER_FLAGS = "-DOS_OBJECT_USE_OBJC=0"; }; };
+		FF71F64249E3F933D9372EC7BAD7496D /* InAppWebViewOptions.swift in Sources */ = {isa = PBXBuildFile; fileRef = 82D169C2612CA6FDFB80E8682FE08E11 /* InAppWebViewOptions.swift */; settings = {COMPILER_FLAGS = "-DOS_OBJECT_USE_OBJC=0"; }; };
+		FFDCB17913BE5BB3F75FCFC0990C7A8E /* MyCookieManager.swift in Sources */ = {isa = PBXBuildFile; fileRef = C085386047C92A63846333CE63D997E7 /* MyCookieManager.swift */; settings = {COMPILER_FLAGS = "-DOS_OBJECT_USE_OBJC=0"; }; };
+/* End PBXBuildFile section */
+
+/* Begin PBXContainerItemProxy section */
+		09BAADFB61146B61BC9F14306AD4D86C /* PBXContainerItemProxy */ = {
+			isa = PBXContainerItemProxy;
+			containerPortal = BFDFE7DC352907FC980B868725387E98 /* Project object */;
+			proxyType = 1;
+			remoteGlobalIDString = 1EFDDC32A34D56D411E640A81DCD9E73;
+			remoteInfo = Flutter;
+		};
+		423CA678118E97491894E0DA2CE30F3F /* PBXContainerItemProxy */ = {
+			isa = PBXContainerItemProxy;
+			containerPortal = BFDFE7DC352907FC980B868725387E98 /* Project object */;
+			proxyType = 1;
+			remoteGlobalIDString = 2F8410D3DA69756D81B1FE8C64A8ED4B;
+			remoteInfo = OrderedSet;
+		};
+		82AE6D31B99A410D5FE487A22EB6E762 /* PBXContainerItemProxy */ = {
+			isa = PBXContainerItemProxy;
+			containerPortal = BFDFE7DC352907FC980B868725387E98 /* Project object */;
+			proxyType = 1;
+			remoteGlobalIDString = 1FF87323EE36EEC3288ACC236433F23A;
+			remoteInfo = flutter_inappwebview;
+		};
+		82C05B49880D859FC0671C5855073543 /* PBXContainerItemProxy */ = {
+			isa = PBXContainerItemProxy;
+			containerPortal = BFDFE7DC352907FC980B868725387E98 /* Project object */;
+			proxyType = 1;
+			remoteGlobalIDString = 1EFDDC32A34D56D411E640A81DCD9E73;
+			remoteInfo = Flutter;
+		};
+		EA8C24FA8C65886F77ED370CDC756745 /* PBXContainerItemProxy */ = {
+			isa = PBXContainerItemProxy;
+			containerPortal = BFDFE7DC352907FC980B868725387E98 /* Project object */;
+			proxyType = 1;
+			remoteGlobalIDString = 2F8410D3DA69756D81B1FE8C64A8ED4B;
+			remoteInfo = OrderedSet;
+		};
+/* End PBXContainerItemProxy section */
+
+/* Begin PBXFileReference section */
+		00689F4787B06C5F3738F54EBBC2B67E /* OrderedSet.release.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; path = OrderedSet.release.xcconfig; sourceTree = "<group>"; };
+		02E6EBFD0E3CDA9CD6687EDCD2459755 /* PromisePolyfillJS.swift */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.swift; name = PromisePolyfillJS.swift; path = "../../../../../../../../../.pub-cache/hosted/pub.dev/flutter_inappwebview-5.7.2+3/ios/Classes/PluginScriptsJS/PromisePolyfillJS.swift"; sourceTree = "<group>"; };
+		04B8B2454AE189570DB33C3E554DAF5C /* PullToRefreshControl.swift */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.swift; name = PullToRefreshControl.swift; path = "../../../../../../../../../.pub-cache/hosted/pub.dev/flutter_inappwebview-5.7.2+3/ios/Classes/PullToRefresh/PullToRefreshControl.swift"; sourceTree = "<group>"; };
+		0564053698BF71732FB71651CC872A1D /* OrderedSet-dummy.m */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.objc; path = "OrderedSet-dummy.m"; sourceTree = "<group>"; };
+		077BA746DDD617594DC39C7617E0B13D /* InAppBrowserNavigationController.swift */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.swift; name = InAppBrowserNavigationController.swift; path = "../../../../../../../../../.pub-cache/hosted/pub.dev/flutter_inappwebview-5.7.2+3/ios/Classes/InAppBrowser/InAppBrowserNavigationController.swift"; sourceTree = "<group>"; };
+		08A9B27046DB69EAA7243662E12E73C7 /* WebMessageChannel.swift */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.swift; name = WebMessageChannel.swift; path = "../../../../../../../../../.pub-cache/hosted/pub.dev/flutter_inappwebview-5.7.2+3/ios/Classes/Types/WebMessageChannel.swift"; sourceTree = "<group>"; };
+		0E7F5A09C7132CEF575D10A1DF07C8CB /* OrderedSet.debug.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; path = OrderedSet.debug.xcconfig; sourceTree = "<group>"; };
+		1003EEAF0E54A09D32412E3E482EDF81 /* HeadlessInAppWebView.swift */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.swift; name = HeadlessInAppWebView.swift; path = "../../../../../../../../../.pub-cache/hosted/pub.dev/flutter_inappwebview-5.7.2+3/ios/Classes/HeadlessInAppWebView/HeadlessInAppWebView.swift"; sourceTree = "<group>"; };
+		111B1BF4D781DF52420B139EF88AADB9 /* WKProcessPoolManager.swift */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.swift; name = WKProcessPoolManager.swift; path = "../../../../../../../../.pub-cache/hosted/pub.dev/flutter_inappwebview-5.7.2+3/ios/Classes/WKProcessPoolManager.swift"; sourceTree = "<group>"; };
+		12C52628C63818008F4DC80CF2A7BD47 /* JavaScriptBridgeJS.swift */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.swift; name = JavaScriptBridgeJS.swift; path = "../../../../../../../../../.pub-cache/hosted/pub.dev/flutter_inappwebview-5.7.2+3/ios/Classes/PluginScriptsJS/JavaScriptBridgeJS.swift"; sourceTree = "<group>"; };
+		151723777853B0F83B71950A148B7EBB /* InterceptAjaxRequestJS.swift */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.swift; name = InterceptAjaxRequestJS.swift; path = "../../../../../../../../../.pub-cache/hosted/pub.dev/flutter_inappwebview-5.7.2+3/ios/Classes/PluginScriptsJS/InterceptAjaxRequestJS.swift"; sourceTree = "<group>"; };
+		17AC7D9131331366796E4D8DDFF0790A /* WindowIdJS.swift */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.swift; name = WindowIdJS.swift; path = "../../../../../../../../../.pub-cache/hosted/pub.dev/flutter_inappwebview-5.7.2+3/ios/Classes/PluginScriptsJS/WindowIdJS.swift"; sourceTree = "<group>"; };
+		1A51D0EB45D0C6F36069FE4D8DC27E53 /* LastTouchedAnchorOrImageJS.swift */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.swift; name = LastTouchedAnchorOrImageJS.swift; path = "../../../../../../../../../.pub-cache/hosted/pub.dev/flutter_inappwebview-5.7.2+3/ios/Classes/PluginScriptsJS/LastTouchedAnchorOrImageJS.swift"; sourceTree = "<group>"; };
+		1A7EF6DFC8A2A0EDD642B6E1AD07683D /* EnableViewportScaleJS.swift */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.swift; name = EnableViewportScaleJS.swift; path = "../../../../../../../../../.pub-cache/hosted/pub.dev/flutter_inappwebview-5.7.2+3/ios/Classes/PluginScriptsJS/EnableViewportScaleJS.swift"; sourceTree = "<group>"; };
+		1CE4001B187E637CA38462D70A0FB39B /* PlatformUtil.swift */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.swift; name = PlatformUtil.swift; path = "../../../../../../../../.pub-cache/hosted/pub.dev/flutter_inappwebview-5.7.2+3/ios/Classes/PlatformUtil.swift"; sourceTree = "<group>"; };
+		1EB1CCDC8360A794510B6005C17FF49A /* WKSecurityOrigin.swift */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.swift; name = WKSecurityOrigin.swift; path = "../../../../../../../../../.pub-cache/hosted/pub.dev/flutter_inappwebview-5.7.2+3/ios/Classes/Types/WKSecurityOrigin.swift"; sourceTree = "<group>"; };
+		1FCF70CD12B366ACD03140BFCA6A977B /* WebView.storyboard */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = file.storyboard; name = WebView.storyboard; path = "../../../../../../../../.pub-cache/hosted/pub.dev/flutter_inappwebview-5.7.2+3/ios/Storyboards/WebView.storyboard"; sourceTree = "<group>"; };
+		20EB7173915709A03505B9E70D260C66 /* InAppWebViewStatic.swift */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.swift; name = InAppWebViewStatic.swift; path = "../../../../../../../../.pub-cache/hosted/pub.dev/flutter_inappwebview-5.7.2+3/ios/Classes/InAppWebViewStatic.swift"; sourceTree = "<group>"; };
+		21B7E1FC4CE23F3987A3941B2C030BA2 /* WKUserContentController.swift */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.swift; name = WKUserContentController.swift; path = "../../../../../../../../../.pub-cache/hosted/pub.dev/flutter_inappwebview-5.7.2+3/ios/Classes/Types/WKUserContentController.swift"; sourceTree = "<group>"; };
+		21C9D8E89D3D842BF73C7F74EC8225A0 /* Flutter.debug.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; path = Flutter.debug.xcconfig; sourceTree = "<group>"; };
+		2313ED0F866E11E6BC566920D61430FC /* WebMessageListenerJS.swift */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.swift; name = WebMessageListenerJS.swift; path = "../../../../../../../../../.pub-cache/hosted/pub.dev/flutter_inappwebview-5.7.2+3/ios/Classes/PluginScriptsJS/WebMessageListenerJS.swift"; sourceTree = "<group>"; };
+		2E1FA3CDCE9ECBBD772BDECB87C1DDB5 /* URLProtectionSpace.swift */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.swift; name = URLProtectionSpace.swift; path = "../../../../../../../../../.pub-cache/hosted/pub.dev/flutter_inappwebview-5.7.2+3/ios/Classes/Types/URLProtectionSpace.swift"; sourceTree = "<group>"; };
+		33A264343DF49A1A207B52963E7A8757 /* PluginScript.swift */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.swift; name = PluginScript.swift; path = "../../../../../../../../../.pub-cache/hosted/pub.dev/flutter_inappwebview-5.7.2+3/ios/Classes/Types/PluginScript.swift"; sourceTree = "<group>"; };
+		3421E002D66876E1182CD350D1A08E34 /* ChromeSafariBrowserManager.swift */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.swift; name = ChromeSafariBrowserManager.swift; path = "../../../../../../../../../.pub-cache/hosted/pub.dev/flutter_inappwebview-5.7.2+3/ios/Classes/SafariViewController/ChromeSafariBrowserManager.swift"; sourceTree = "<group>"; };
+		35F300EB97B33BF43CDB5360CACC5C5E /* flutter_inappwebview-prefix.pch */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.h; path = "flutter_inappwebview-prefix.pch"; sourceTree = "<group>"; };
+		35FE80456088A2ED652D03D00E025C4B /* PrintJS.swift */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.swift; name = PrintJS.swift; path = "../../../../../../../../../.pub-cache/hosted/pub.dev/flutter_inappwebview-5.7.2+3/ios/Classes/PluginScriptsJS/PrintJS.swift"; sourceTree = "<group>"; };
+		3738784B357C2C02396F2F7C53C803E2 /* WebMessagePort.swift */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.swift; name = WebMessagePort.swift; path = "../../../../../../../../../.pub-cache/hosted/pub.dev/flutter_inappwebview-5.7.2+3/ios/Classes/Types/WebMessagePort.swift"; sourceTree = "<group>"; };
+		3D101DB38F5914580EE7FCC0AF9B2E61 /* OnLoadResourceJS.swift */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.swift; name = OnLoadResourceJS.swift; path = "../../../../../../../../../.pub-cache/hosted/pub.dev/flutter_inappwebview-5.7.2+3/ios/Classes/PluginScriptsJS/OnLoadResourceJS.swift"; sourceTree = "<group>"; };
+		44BC346F4B29A3AF3A721012B92917B0 /* flutter_inappwebview.debug.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; path = flutter_inappwebview.debug.xcconfig; sourceTree = "<group>"; };
+		44FADBF9E7272C559CC1E2DC21687033 /* ConsoleLogJS.swift */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.swift; name = ConsoleLogJS.swift; path = "../../../../../../../../../.pub-cache/hosted/pub.dev/flutter_inappwebview-5.7.2+3/ios/Classes/PluginScriptsJS/ConsoleLogJS.swift"; sourceTree = "<group>"; };
+		45F90DC56788DE7D46905E73F2D5DD82 /* OrderedSet-umbrella.h */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.h; path = "OrderedSet-umbrella.h"; sourceTree = "<group>"; };
+		4A540D57D0C2109E3FF7ABFBB1F038BA /* Options.swift */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.swift; name = Options.swift; path = "../../../../../../../../.pub-cache/hosted/pub.dev/flutter_inappwebview-5.7.2+3/ios/Classes/Options.swift"; sourceTree = "<group>"; };
+		4CDCAF56DE891F64C19525D8A0D75B71 /* OrderedSet-prefix.pch */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.h; path = "OrderedSet-prefix.pch"; sourceTree = "<group>"; };
+		4E920ABDFC66BF295AA3CB0867470D3D /* URLResponse.swift */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.swift; name = URLResponse.swift; path = "../../../../../../../../../.pub-cache/hosted/pub.dev/flutter_inappwebview-5.7.2+3/ios/Classes/Types/URLResponse.swift"; sourceTree = "<group>"; };
+		512A9A6524713DAF78EC361AEAA7BD65 /* flutter_inappwebview.modulemap */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.module; path = flutter_inappwebview.modulemap; sourceTree = "<group>"; };
+		51553344FBDEE4D8BAB62D6542B4C598 /* SecCertificate.swift */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.swift; name = SecCertificate.swift; path = "../../../../../../../../../.pub-cache/hosted/pub.dev/flutter_inappwebview-5.7.2+3/ios/Classes/Types/SecCertificate.swift"; sourceTree = "<group>"; };
+		53AF3AF6DD7CF1B1E6D7C60883746A1A /* Pods-Runner.debug.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; path = "Pods-Runner.debug.xcconfig"; sourceTree = "<group>"; };
+		5559055E2B6DBCA300CEF5C1F0B326B4 /* FindTextHighlightJS.swift */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.swift; name = FindTextHighlightJS.swift; path = "../../../../../../../../../.pub-cache/hosted/pub.dev/flutter_inappwebview-5.7.2+3/ios/Classes/PluginScriptsJS/FindTextHighlightJS.swift"; sourceTree = "<group>"; };
+		56D00A72A2111DA6B7F176154DC7E9E4 /* PullToRefreshDelegate.swift */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.swift; name = PullToRefreshDelegate.swift; path = "../../../../../../../../../.pub-cache/hosted/pub.dev/flutter_inappwebview-5.7.2+3/ios/Classes/PullToRefresh/PullToRefreshDelegate.swift"; sourceTree = "<group>"; };
+		59DFB1A4606472369193A23D716C8FC1 /* flutter_inappwebview-umbrella.h */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.h; path = "flutter_inappwebview-umbrella.h"; sourceTree = "<group>"; };
+		5E6C0C1D2693DD2B5F048A7A7065DC0B /* FindElementsAtPointJS.swift */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.swift; name = FindElementsAtPointJS.swift; path = "../../../../../../../../../.pub-cache/hosted/pub.dev/flutter_inappwebview-5.7.2+3/ios/Classes/PluginScriptsJS/FindElementsAtPointJS.swift"; sourceTree = "<group>"; };
+		602DDF69E960390656DB3C3BA6553AA4 /* SafariViewController.swift */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.swift; name = SafariViewController.swift; path = "../../../../../../../../../.pub-cache/hosted/pub.dev/flutter_inappwebview-5.7.2+3/ios/Classes/SafariViewController/SafariViewController.swift"; sourceTree = "<group>"; };
+		60E8C9E19751405B57238651D372C6EE /* flutter_inappwebview */ = {isa = PBXFileReference; explicitFileType = archive.ar; includeInIndex = 0; name = flutter_inappwebview; path = libflutter_inappwebview.a; sourceTree = BUILT_PRODUCTS_DIR; };
+		614882FD0BC760DB0BF52E7BF09778D7 /* OnWindowFocusEventJS.swift */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.swift; name = OnWindowFocusEventJS.swift; path = "../../../../../../../../../.pub-cache/hosted/pub.dev/flutter_inappwebview-5.7.2+3/ios/Classes/PluginScriptsJS/OnWindowFocusEventJS.swift"; sourceTree = "<group>"; };
+		622BE525408138052AD0882DB38A2FB7 /* WebMessage.swift */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.swift; name = WebMessage.swift; path = "../../../../../../../../../.pub-cache/hosted/pub.dev/flutter_inappwebview-5.7.2+3/ios/Classes/Types/WebMessage.swift"; sourceTree = "<group>"; };
+		63E33CE0BD9B369E0B8F4B9976371DEC /* InterceptFetchRequestJS.swift */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.swift; name = InterceptFetchRequestJS.swift; path = "../../../../../../../../../.pub-cache/hosted/pub.dev/flutter_inappwebview-5.7.2+3/ios/Classes/PluginScriptsJS/InterceptFetchRequestJS.swift"; sourceTree = "<group>"; };
+		65E31F24A6D3735900AEC862DD0AEFD6 /* WKNavigationAction.swift */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.swift; name = WKNavigationAction.swift; path = "../../../../../../../../../.pub-cache/hosted/pub.dev/flutter_inappwebview-5.7.2+3/ios/Classes/Types/WKNavigationAction.swift"; sourceTree = "<group>"; };
+		66895EB4731DCE6E4FB54C13535E5E86 /* OrderedSet.modulemap */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.module; path = OrderedSet.modulemap; sourceTree = "<group>"; };
+		669E8F25E1897672BDB80B7EB784DA24 /* Pods-Runner */ = {isa = PBXFileReference; explicitFileType = archive.ar; includeInIndex = 0; name = "Pods-Runner"; path = "libPods-Runner.a"; sourceTree = BUILT_PRODUCTS_DIR; };
+		697D493455F7C36BD132FED93AFC7A47 /* WKWindowFeatures.swift */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.swift; name = WKWindowFeatures.swift; path = "../../../../../../../../../.pub-cache/hosted/pub.dev/flutter_inappwebview-5.7.2+3/ios/Classes/Types/WKWindowFeatures.swift"; sourceTree = "<group>"; };
+		6C245492B25BD35BE256EDDDD122F87A /* FlutterWebViewController.swift */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.swift; name = FlutterWebViewController.swift; path = "../../../../../../../../../.pub-cache/hosted/pub.dev/flutter_inappwebview-5.7.2+3/ios/Classes/InAppWebView/FlutterWebViewController.swift"; sourceTree = "<group>"; };
+		708CDCBECE19528A113F0606FCF4F7CE /* Pods-Runner.modulemap */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.module; path = "Pods-Runner.modulemap"; sourceTree = "<group>"; };
+		70A3D64F298F912986AE0F8D38B9BA2F /* CustomeSchemeHandler.swift */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.swift; name = CustomeSchemeHandler.swift; path = "../../../../../../../../.pub-cache/hosted/pub.dev/flutter_inappwebview-5.7.2+3/ios/Classes/CustomeSchemeHandler.swift"; sourceTree = "<group>"; };
+		73E56835315B133B1849C24190FF468A /* CallAsyncJavaScriptBelowIOS14WrapperJS.swift */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.swift; name = CallAsyncJavaScriptBelowIOS14WrapperJS.swift; path = "../../../../../../../../../.pub-cache/hosted/pub.dev/flutter_inappwebview-5.7.2+3/ios/Classes/PluginScriptsJS/CallAsyncJavaScriptBelowIOS14WrapperJS.swift"; sourceTree = "<group>"; };
+		78A669A7A3A2D21DCA289910B084F3D6 /* URLCredential.swift */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.swift; name = URLCredential.swift; path = "../../../../../../../../../.pub-cache/hosted/pub.dev/flutter_inappwebview-5.7.2+3/ios/Classes/Types/URLCredential.swift"; sourceTree = "<group>"; };
+		7C64684685E94ADC2FCA3B5985315959 /* Pods-Runner-acknowledgements.plist */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.plist.xml; path = "Pods-Runner-acknowledgements.plist"; sourceTree = "<group>"; };
+		7D63BF7B6DEBF59333585A4DD4DCA959 /* HeadlessInAppWebViewManager.swift */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.swift; name = HeadlessInAppWebViewManager.swift; path = "../../../../../../../../../.pub-cache/hosted/pub.dev/flutter_inappwebview-5.7.2+3/ios/Classes/HeadlessInAppWebView/HeadlessInAppWebViewManager.swift"; sourceTree = "<group>"; };
+		82B3709DF911BDF3CAA2269254BD8414 /* HitTestResult.swift */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.swift; name = HitTestResult.swift; path = "../../../../../../../../../.pub-cache/hosted/pub.dev/flutter_inappwebview-5.7.2+3/ios/Classes/Types/HitTestResult.swift"; sourceTree = "<group>"; };
+		82D169C2612CA6FDFB80E8682FE08E11 /* InAppWebViewOptions.swift */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.swift; name = InAppWebViewOptions.swift; path = "../../../../../../../../../.pub-cache/hosted/pub.dev/flutter_inappwebview-5.7.2+3/ios/Classes/InAppWebView/InAppWebViewOptions.swift"; sourceTree = "<group>"; };
+		840D0754C1B8831C9E84C7A7777BF023 /* Pods-Runner-dummy.m */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.objc; path = "Pods-Runner-dummy.m"; sourceTree = "<group>"; };
+		85968A4110EA21F8CECE1603A2FBA42C /* InAppWebViewFlutterPlugin.m */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.objc; name = InAppWebViewFlutterPlugin.m; path = "../../../../../../../../.pub-cache/hosted/pub.dev/flutter_inappwebview-5.7.2+3/ios/Classes/InAppWebViewFlutterPlugin.m"; sourceTree = "<group>"; };
+		885AB02B66FA4688977437223159AA92 /* WebViewTransport.swift */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.swift; name = WebViewTransport.swift; path = "../../../../../../../../../.pub-cache/hosted/pub.dev/flutter_inappwebview-5.7.2+3/ios/Classes/Types/WebViewTransport.swift"; sourceTree = "<group>"; };
+		8A97EEBB0C6816DCFA251C5EA5BEBDF3 /* Flutter.podspec */ = {isa = PBXFileReference; explicitFileType = text.script.ruby; includeInIndex = 1; indentWidth = 2; lastKnownFileType = text; path = Flutter.podspec; sourceTree = "<group>"; tabWidth = 2; xcLanguageSpecificationIdentifier = xcode.lang.ruby; };
+		903CD2E102CD25AEA3169AE4A87F7D19 /* URLRequest.swift */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.swift; name = URLRequest.swift; path = "../../../../../../../../../.pub-cache/hosted/pub.dev/flutter_inappwebview-5.7.2+3/ios/Classes/Types/URLRequest.swift"; sourceTree = "<group>"; };
+		95A9AA95F1F390E0938572534B83D6F8 /* SupportZoomJS.swift */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.swift; name = SupportZoomJS.swift; path = "../../../../../../../../../.pub-cache/hosted/pub.dev/flutter_inappwebview-5.7.2+3/ios/Classes/PluginScriptsJS/SupportZoomJS.swift"; sourceTree = "<group>"; };
+		97E631698AF340E5CC41ABE3CF07E979 /* InAppWebView.swift */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.swift; name = InAppWebView.swift; path = "../../../../../../../../../.pub-cache/hosted/pub.dev/flutter_inappwebview-5.7.2+3/ios/Classes/InAppWebView/InAppWebView.swift"; sourceTree = "<group>"; };
+		98923F7D29B92F8F729763C15C04FFD1 /* InAppBrowserWebViewController.swift */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.swift; name = InAppBrowserWebViewController.swift; path = "../../../../../../../../../.pub-cache/hosted/pub.dev/flutter_inappwebview-5.7.2+3/ios/Classes/InAppBrowser/InAppBrowserWebViewController.swift"; sourceTree = "<group>"; };
+		98FF0987742F984F89345FC7E0684408 /* Pods-Runner-umbrella.h */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.h; path = "Pods-Runner-umbrella.h"; sourceTree = "<group>"; };
+		9D940727FF8FB9C785EB98E56350EF41 /* Podfile */ = {isa = PBXFileReference; explicitFileType = text.script.ruby; includeInIndex = 1; indentWidth = 2; lastKnownFileType = text; name = Podfile; path = ../Podfile; sourceTree = SOURCE_ROOT; tabWidth = 2; xcLanguageSpecificationIdentifier = xcode.lang.ruby; };
+		A05C202BBD590EBDFA496E52033B2E92 /* InAppWebViewFlutterPlugin.h */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.h; name = InAppWebViewFlutterPlugin.h; path = "../../../../../../../../.pub-cache/hosted/pub.dev/flutter_inappwebview-5.7.2+3/ios/Classes/InAppWebViewFlutterPlugin.h"; sourceTree = "<group>"; };
+		A65C3453BF9B4B4A4E845F161D4EE173 /* OnWindowBlurEventJS.swift */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.swift; name = OnWindowBlurEventJS.swift; path = "../../../../../../../../../.pub-cache/hosted/pub.dev/flutter_inappwebview-5.7.2+3/ios/Classes/PluginScriptsJS/OnWindowBlurEventJS.swift"; sourceTree = "<group>"; };
+		A874F820A07658691314019CECC4B1FB /* SafariBrowserOptions.swift */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.swift; name = SafariBrowserOptions.swift; path = "../../../../../../../../../.pub-cache/hosted/pub.dev/flutter_inappwebview-5.7.2+3/ios/Classes/SafariViewController/SafariBrowserOptions.swift"; sourceTree = "<group>"; };
+		A921150CCFA681F261E38B07F3A17837 /* Pods-Runner-acknowledgements.markdown */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text; path = "Pods-Runner-acknowledgements.markdown"; sourceTree = "<group>"; };
+		A9FBB571BED4B864EEEB686B13465C7E /* Flutter.release.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; path = Flutter.release.xcconfig; sourceTree = "<group>"; };
+		AAA1024DB63088E442EAD6EE32100D2A /* InAppBrowserOptions.swift */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.swift; name = InAppBrowserOptions.swift; path = "../../../../../../../../../.pub-cache/hosted/pub.dev/flutter_inappwebview-5.7.2+3/ios/Classes/InAppBrowser/InAppBrowserOptions.swift"; sourceTree = "<group>"; };
+		AB8EA9B4C0ED9055B0D24EFE4E42B760 /* WKContentWorld.swift */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.swift; name = WKContentWorld.swift; path = "../../../../../../../../../.pub-cache/hosted/pub.dev/flutter_inappwebview-5.7.2+3/ios/Classes/Types/WKContentWorld.swift"; sourceTree = "<group>"; };
+		B411B7C0B7812CCA26D31C1B248FFAED /* UserScript.swift */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.swift; name = UserScript.swift; path = "../../../../../../../../../.pub-cache/hosted/pub.dev/flutter_inappwebview-5.7.2+3/ios/Classes/Types/UserScript.swift"; sourceTree = "<group>"; };
+		B79E42BAD5E73C70AC7F535E2C76911D /* SslCertificate.swift */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.swift; name = SslCertificate.swift; path = "../../../../../../../../../.pub-cache/hosted/pub.dev/flutter_inappwebview-5.7.2+3/ios/Classes/Types/SslCertificate.swift"; sourceTree = "<group>"; };
+		B7B9C14BC4E2003D210F98B1A897F7B1 /* ClientCertChallenge.swift */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.swift; name = ClientCertChallenge.swift; path = "../../../../../../../../../.pub-cache/hosted/pub.dev/flutter_inappwebview-5.7.2+3/ios/Classes/Types/ClientCertChallenge.swift"; sourceTree = "<group>"; };
+		B864BF3431ECA5CCD3A61B63EB02C11C /* flutter_inappwebview-dummy.m */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.objc; path = "flutter_inappwebview-dummy.m"; sourceTree = "<group>"; };
+		B8F86E299D7FBACEA337945E7FF3DB8D /* PluginScriptsUtil.swift */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.swift; name = PluginScriptsUtil.swift; path = "../../../../../../../../../.pub-cache/hosted/pub.dev/flutter_inappwebview-5.7.2+3/ios/Classes/PluginScriptsJS/PluginScriptsUtil.swift"; sourceTree = "<group>"; };
+		BA9D4B6E75246A855DA7507147AC4669 /* DownloadStartRequest.swift */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.swift; name = DownloadStartRequest.swift; path = "../../../../../../../../../.pub-cache/hosted/pub.dev/flutter_inappwebview-5.7.2+3/ios/Classes/Types/DownloadStartRequest.swift"; sourceTree = "<group>"; };
+		BAF0E8A0A7F69260D15356C8CCB2FC8A /* FlutterMethodCallDelegate.swift */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.swift; name = FlutterMethodCallDelegate.swift; path = "../../../../../../../../.pub-cache/hosted/pub.dev/flutter_inappwebview-5.7.2+3/ios/Classes/FlutterMethodCallDelegate.swift"; sourceTree = "<group>"; };
+		BDB6B238DDAC5E1D2425A1D83432CAC4 /* InAppWebViewMethodHandler.swift */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.swift; name = InAppWebViewMethodHandler.swift; path = "../../../../../../../../.pub-cache/hosted/pub.dev/flutter_inappwebview-5.7.2+3/ios/Classes/InAppWebViewMethodHandler.swift"; sourceTree = "<group>"; };
+		BF1EF8012F18B70A6F0692A69A28F46D /* SslError.swift */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.swift; name = SslError.swift; path = "../../../../../../../../../.pub-cache/hosted/pub.dev/flutter_inappwebview-5.7.2+3/ios/Classes/Types/SslError.swift"; sourceTree = "<group>"; };
+		C085386047C92A63846333CE63D997E7 /* MyCookieManager.swift */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.swift; name = MyCookieManager.swift; path = "../../../../../../../../.pub-cache/hosted/pub.dev/flutter_inappwebview-5.7.2+3/ios/Classes/MyCookieManager.swift"; sourceTree = "<group>"; };
+		C69EBBB97C057ABB6A5D83EDCF668351 /* OriginalViewPortMetaTagContentJS.swift */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.swift; name = OriginalViewPortMetaTagContentJS.swift; path = "../../../../../../../../../.pub-cache/hosted/pub.dev/flutter_inappwebview-5.7.2+3/ios/Classes/PluginScriptsJS/OriginalViewPortMetaTagContentJS.swift"; sourceTree = "<group>"; };
+		C6DDA4133FF18462396FEC5ED9FC2974 /* URLAuthenticationChallenge.swift */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.swift; name = URLAuthenticationChallenge.swift; path = "../../../../../../../../../.pub-cache/hosted/pub.dev/flutter_inappwebview-5.7.2+3/ios/Classes/Types/URLAuthenticationChallenge.swift"; sourceTree = "<group>"; };
+		C89E3D503A45AABACF4687E60746A519 /* WKFrameInfo.swift */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.swift; name = WKFrameInfo.swift; path = "../../../../../../../../../.pub-cache/hosted/pub.dev/flutter_inappwebview-5.7.2+3/ios/Classes/Types/WKFrameInfo.swift"; sourceTree = "<group>"; };
+		CABAE7F0D09EEBE2685B024A76C0DD7A /* MyWebStorageManager.swift */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.swift; name = MyWebStorageManager.swift; path = "../../../../../../../../.pub-cache/hosted/pub.dev/flutter_inappwebview-5.7.2+3/ios/Classes/MyWebStorageManager.swift"; sourceTree = "<group>"; };
+		CC421C6FF210FBC08C32B2B6D7FCB1A9 /* UIColor.swift */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.swift; name = UIColor.swift; path = "../../../../../../../../../.pub-cache/hosted/pub.dev/flutter_inappwebview-5.7.2+3/ios/Classes/Types/UIColor.swift"; sourceTree = "<group>"; };
+		CC504E28292D813418B35CEE858441C2 /* SwiftFlutterPlugin.swift */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.swift; name = SwiftFlutterPlugin.swift; path = "../../../../../../../../.pub-cache/hosted/pub.dev/flutter_inappwebview-5.7.2+3/ios/Classes/SwiftFlutterPlugin.swift"; sourceTree = "<group>"; };
+		CCC337A10AF731031F7DC3C61E1CAB6E /* FlutterWebViewFactory.swift */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.swift; name = FlutterWebViewFactory.swift; path = "../../../../../../../../../.pub-cache/hosted/pub.dev/flutter_inappwebview-5.7.2+3/ios/Classes/InAppWebView/FlutterWebViewFactory.swift"; sourceTree = "<group>"; };
+		CD39E02B87169010020A281554410A41 /* LICENSE */ = {isa = PBXFileReference; includeInIndex = 1; name = LICENSE; path = "../../../../../../../.pub-cache/hosted/pub.dev/flutter_inappwebview-5.7.2+3/LICENSE"; sourceTree = "<group>"; };
+		CF69C607436DA9B355B1BBA31007ED99 /* HttpAuthenticationChallenge.swift */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.swift; name = HttpAuthenticationChallenge.swift; path = "../../../../../../../../.pub-cache/hosted/pub.dev/flutter_inappwebview-5.7.2+3/ios/Classes/HttpAuthenticationChallenge.swift"; sourceTree = "<group>"; };
+		D128C622F7FF57339BFED13F5CA4639F /* Size2D.swift */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.swift; name = Size2D.swift; path = "../../../../../../../../../.pub-cache/hosted/pub.dev/flutter_inappwebview-5.7.2+3/ios/Classes/Types/Size2D.swift"; sourceTree = "<group>"; };
+		D5A750D6BA764649B639C704644743E7 /* flutter_inappwebview.release.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; path = flutter_inappwebview.release.xcconfig; sourceTree = "<group>"; };
+		D6EBE65F84049F9760E6EE01E900D99F /* OrderedSet */ = {isa = PBXFileReference; explicitFileType = archive.ar; includeInIndex = 0; name = OrderedSet; path = libOrderedSet.a; sourceTree = BUILT_PRODUCTS_DIR; };
+		D7346122A77B1E0E4A30ABE0D08388D7 /* WKNavigationResponse.swift */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.swift; name = WKNavigationResponse.swift; path = "../../../../../../../../../.pub-cache/hosted/pub.dev/flutter_inappwebview-5.7.2+3/ios/Classes/Types/WKNavigationResponse.swift"; sourceTree = "<group>"; };
+		D7C130B6F8C45E48D943349059FD24C1 /* LeakAvoider.swift */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.swift; name = LeakAvoider.swift; path = "../../../../../../../../.pub-cache/hosted/pub.dev/flutter_inappwebview-5.7.2+3/ios/Classes/LeakAvoider.swift"; sourceTree = "<group>"; };
+		E0F254E8A2A34C62FC20577AB568569F /* InAppBrowserManager.swift */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.swift; name = InAppBrowserManager.swift; path = "../../../../../../../../../.pub-cache/hosted/pub.dev/flutter_inappwebview-5.7.2+3/ios/Classes/InAppBrowser/InAppBrowserManager.swift"; sourceTree = "<group>"; };
+		E3BFD8439C8B4DAD9334AB105C0B9465 /* WebMessageListener.swift */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.swift; name = WebMessageListener.swift; path = "../../../../../../../../../.pub-cache/hosted/pub.dev/flutter_inappwebview-5.7.2+3/ios/Classes/Types/WebMessageListener.swift"; sourceTree = "<group>"; };
+		E427CB1F12F138634D09CC7EB4CFFD46 /* WebMessageChannelJS.swift */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.swift; name = WebMessageChannelJS.swift; path = "../../../../../../../../../.pub-cache/hosted/pub.dev/flutter_inappwebview-5.7.2+3/ios/Classes/PluginScriptsJS/WebMessageChannelJS.swift"; sourceTree = "<group>"; };
+		E7060C7F1A664E021C637B590E8922BD /* InAppBrowserDelegate.swift */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.swift; name = InAppBrowserDelegate.swift; path = "../../../../../../../../../.pub-cache/hosted/pub.dev/flutter_inappwebview-5.7.2+3/ios/Classes/InAppBrowser/InAppBrowserDelegate.swift"; sourceTree = "<group>"; };
+		EAA9CE4206B36D0661BFB808CACF45A3 /* flutter_inappwebview.podspec */ = {isa = PBXFileReference; explicitFileType = text.script.ruby; includeInIndex = 1; indentWidth = 2; lastKnownFileType = text; name = flutter_inappwebview.podspec; path = "../../../../../../../.pub-cache/hosted/pub.dev/flutter_inappwebview-5.7.2+3/ios/flutter_inappwebview.podspec"; sourceTree = "<group>"; tabWidth = 2; xcLanguageSpecificationIdentifier = xcode.lang.ruby; };
+		EBE9BF3E22F65735A1D716F2DBFBA401 /* Pods-Runner.profile.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; path = "Pods-Runner.profile.xcconfig"; sourceTree = "<group>"; };
+		EE05812E0BD5EE25C18EEC39100B3AAD /* ServerTrustChallenge.swift */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.swift; name = ServerTrustChallenge.swift; path = "../../../../../../../../../.pub-cache/hosted/pub.dev/flutter_inappwebview-5.7.2+3/ios/Classes/Types/ServerTrustChallenge.swift"; sourceTree = "<group>"; };
+		EE4B2980C917E951B4C23EB96CB93A79 /* Util.swift */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.swift; name = Util.swift; path = "../../../../../../../../.pub-cache/hosted/pub.dev/flutter_inappwebview-5.7.2+3/ios/Classes/Util.swift"; sourceTree = "<group>"; };
+		EE9F71DD92036DAC435648F52B46A4DC /* NSAttributedString.swift */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.swift; name = NSAttributedString.swift; path = "../../../../../../../../../.pub-cache/hosted/pub.dev/flutter_inappwebview-5.7.2+3/ios/Classes/Types/NSAttributedString.swift"; sourceTree = "<group>"; };
+		F2D1E9409D2EB31B2216F73EF417FCA0 /* OrderedSet.swift */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.swift; name = OrderedSet.swift; path = Sources/OrderedSet.swift; sourceTree = "<group>"; };
+		F741C6B5969C669F7ED08A3D19941C59 /* CredentialDatabase.swift */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.swift; name = CredentialDatabase.swift; path = "../../../../../../../../.pub-cache/hosted/pub.dev/flutter_inappwebview-5.7.2+3/ios/Classes/CredentialDatabase.swift"; sourceTree = "<group>"; };
+		F9D86489E6638235A6B5928C4F86E442 /* Pods-Runner.release.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; path = "Pods-Runner.release.xcconfig"; sourceTree = "<group>"; };
+		FAF038EEB68D0EC0DAB29C47E30038A8 /* Pods-Runner-resources.sh */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.script.sh; path = "Pods-Runner-resources.sh"; sourceTree = "<group>"; };
+		FBE59EEBE308F1FCEDF2F2207AB3CC35 /* ContextMenuOptions.swift */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.swift; name = ContextMenuOptions.swift; path = "../../../../../../../../.pub-cache/hosted/pub.dev/flutter_inappwebview-5.7.2+3/ios/Classes/ContextMenuOptions.swift"; sourceTree = "<group>"; };
+		FF6B721D87D26FD39E29FC7C85CC8FBF /* PullToRefreshOptions.swift */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.swift; name = PullToRefreshOptions.swift; path = "../../../../../../../../../.pub-cache/hosted/pub.dev/flutter_inappwebview-5.7.2+3/ios/Classes/PullToRefresh/PullToRefreshOptions.swift"; sourceTree = "<group>"; };
+/* End PBXFileReference section */
+
+/* Begin PBXFrameworksBuildPhase section */
+		2468A28FC723BF0A0E0623355FDB3A82 /* Frameworks */ = {
+			isa = PBXFrameworksBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		6ED5168839C54EBA7593D13ED668C71A /* Frameworks */ = {
+			isa = PBXFrameworksBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		75192A1BB18F1AAC29DFF8CCDFDFC68B /* Frameworks */ = {
+			isa = PBXFrameworksBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXFrameworksBuildPhase section */
+
+/* Begin PBXGroup section */
+		0BC65390EC8940299FC0909EC4CBBC78 /* Flutter */ = {
+			isa = PBXGroup;
+			children = (
+				9B23E5BA3ACF38E92D49ACFD2D1A3519 /* Pod */,
+				79FB2E435B0672FBB64DAE7FBABBE7CD /* Support Files */,
+			);
+			name = Flutter;
+			path = ../Flutter;
+			sourceTree = "<group>";
+		};
+		0D5DDB6EE833AC560F9411D05D3CC8A1 /* .symlinks */ = {
+			isa = PBXGroup;
+			children = (
+				7560553B891FEEF82323950F1071DAA5 /* plugins */,
+			);
+			name = .symlinks;
+			path = .symlinks;
+			sourceTree = "<group>";
+		};
+		197F3AF045B4073C35BD4B669BF712D1 /* Types */ = {
+			isa = PBXGroup;
+			children = (
+				B7B9C14BC4E2003D210F98B1A897F7B1 /* ClientCertChallenge.swift */,
+				BA9D4B6E75246A855DA7507147AC4669 /* DownloadStartRequest.swift */,
+				82B3709DF911BDF3CAA2269254BD8414 /* HitTestResult.swift */,
+				EE9F71DD92036DAC435648F52B46A4DC /* NSAttributedString.swift */,
+				33A264343DF49A1A207B52963E7A8757 /* PluginScript.swift */,
+				51553344FBDEE4D8BAB62D6542B4C598 /* SecCertificate.swift */,
+				EE05812E0BD5EE25C18EEC39100B3AAD /* ServerTrustChallenge.swift */,
+				D128C622F7FF57339BFED13F5CA4639F /* Size2D.swift */,
+				B79E42BAD5E73C70AC7F535E2C76911D /* SslCertificate.swift */,
+				BF1EF8012F18B70A6F0692A69A28F46D /* SslError.swift */,
+				CC421C6FF210FBC08C32B2B6D7FCB1A9 /* UIColor.swift */,
+				C6DDA4133FF18462396FEC5ED9FC2974 /* URLAuthenticationChallenge.swift */,
+				78A669A7A3A2D21DCA289910B084F3D6 /* URLCredential.swift */,
+				2E1FA3CDCE9ECBBD772BDECB87C1DDB5 /* URLProtectionSpace.swift */,
+				903CD2E102CD25AEA3169AE4A87F7D19 /* URLRequest.swift */,
+				4E920ABDFC66BF295AA3CB0867470D3D /* URLResponse.swift */,
+				B411B7C0B7812CCA26D31C1B248FFAED /* UserScript.swift */,
+				622BE525408138052AD0882DB38A2FB7 /* WebMessage.swift */,
+				08A9B27046DB69EAA7243662E12E73C7 /* WebMessageChannel.swift */,
+				E3BFD8439C8B4DAD9334AB105C0B9465 /* WebMessageListener.swift */,
+				3738784B357C2C02396F2F7C53C803E2 /* WebMessagePort.swift */,
+				885AB02B66FA4688977437223159AA92 /* WebViewTransport.swift */,
+				AB8EA9B4C0ED9055B0D24EFE4E42B760 /* WKContentWorld.swift */,
+				C89E3D503A45AABACF4687E60746A519 /* WKFrameInfo.swift */,
+				65E31F24A6D3735900AEC862DD0AEFD6 /* WKNavigationAction.swift */,
+				D7346122A77B1E0E4A30ABE0D08388D7 /* WKNavigationResponse.swift */,
+				1EB1CCDC8360A794510B6005C17FF49A /* WKSecurityOrigin.swift */,
+				21B7E1FC4CE23F3987A3941B2C030BA2 /* WKUserContentController.swift */,
+				697D493455F7C36BD132FED93AFC7A47 /* WKWindowFeatures.swift */,
+			);
+			name = Types;
+			path = Types;
+			sourceTree = "<group>";
+		};
+		1E848E55DD6D07BA970D57EE694823BD /* .. */ = {
+			isa = PBXGroup;
+			children = (
+				21AD16B5D708AC6EAAFDE97AE1E3C7AA /* .. */,
+			);
+			name = ..;
+			path = "../../../../../../../.pub-cache/hosted/pub.dev/flutter_inappwebview-5.7.2+3/ios";
+			sourceTree = "<group>";
+		};
+		21AD16B5D708AC6EAAFDE97AE1E3C7AA /* .. */ = {
+			isa = PBXGroup;
+			children = (
+				E2DE96465886D41164E983B72E51D4C3 /* .. */,
+			);
+			name = ..;
+			path = ..;
+			sourceTree = "<group>";
+		};
+		29E254AB17229032EE7064BB6E3CF9CE /* Desktop */ = {
+			isa = PBXGroup;
+			children = (
+				AE1BE2C198C6AEB0AD2A4DAB763920B5 /* webtest */,
+			);
+			name = Desktop;
+			path = Desktop;
+			sourceTree = "<group>";
+		};
+		2E9F36961EF8B84B703736E736582BE6 /* Development Pods */ = {
+			isa = PBXGroup;
+			children = (
+				0BC65390EC8940299FC0909EC4CBBC78 /* Flutter */,
+				5C0DE8DF87B429C9118BB83891F1FE1A /* flutter_inappwebview */,
+			);
+			name = "Development Pods";
+			sourceTree = "<group>";
+		};
+		2F3F0231628D14D71F1139BEFE4E716B /* .. */ = {
+			isa = PBXGroup;
+			children = (
+				29E254AB17229032EE7064BB6E3CF9CE /* Desktop */,
+			);
+			name = ..;
+			path = ..;
+			sourceTree = "<group>";
+		};
+		45CE82F958F9849344B26FF4E432EB9B /* Products */ = {
+			isa = PBXGroup;
+			children = (
+				60E8C9E19751405B57238651D372C6EE /* flutter_inappwebview */,
+				D6EBE65F84049F9760E6EE01E900D99F /* OrderedSet */,
+				669E8F25E1897672BDB80B7EB784DA24 /* Pods-Runner */,
+			);
+			name = Products;
+			sourceTree = "<group>";
+		};
+		4C20BBC6F517C6B8680470BA4A5DA40E /* Pods */ = {
+			isa = PBXGroup;
+			children = (
+				D3BA9AB794C653F1861CF804C27667BE /* OrderedSet */,
+			);
+			name = Pods;
+			sourceTree = "<group>";
+		};
+		4F8EDDABE2AB82559B45EC8434807B1B /* Support Files */ = {
+			isa = PBXGroup;
+			children = (
+				66895EB4731DCE6E4FB54C13535E5E86 /* OrderedSet.modulemap */,
+				0564053698BF71732FB71651CC872A1D /* OrderedSet-dummy.m */,
+				4CDCAF56DE891F64C19525D8A0D75B71 /* OrderedSet-prefix.pch */,
+				45F90DC56788DE7D46905E73F2D5DD82 /* OrderedSet-umbrella.h */,
+				0E7F5A09C7132CEF575D10A1DF07C8CB /* OrderedSet.debug.xcconfig */,
+				00689F4787B06C5F3738F54EBBC2B67E /* OrderedSet.release.xcconfig */,
+			);
+			name = "Support Files";
+			path = "../Target Support Files/OrderedSet";
+			sourceTree = "<group>";
+		};
+		5C0DE8DF87B429C9118BB83891F1FE1A /* flutter_inappwebview */ = {
+			isa = PBXGroup;
+			children = (
+				1E848E55DD6D07BA970D57EE694823BD /* .. */,
+				C84672CBF4D0A07E37CF959C69763E66 /* Pod */,
+				84FB82A294098FA5C6A57322F24E223E /* Support Files */,
+			);
+			name = flutter_inappwebview;
+			path = ../.symlinks/plugins/flutter_inappwebview/ios;
+			sourceTree = "<group>";
+		};
+		5E641B8FB1FB59A38A8BD46FE1E60E03 /* .. */ = {
+			isa = PBXGroup;
+			children = (
+				2F3F0231628D14D71F1139BEFE4E716B /* .. */,
+			);
+			name = ..;
+			path = ..;
+			sourceTree = "<group>";
+		};
+		690E3D07978A22E4FA97C33292095061 /* InAppWebView */ = {
+			isa = PBXGroup;
+			children = (
+				6C245492B25BD35BE256EDDDD122F87A /* FlutterWebViewController.swift */,
+				CCC337A10AF731031F7DC3C61E1CAB6E /* FlutterWebViewFactory.swift */,
+				97E631698AF340E5CC41ABE3CF07E979 /* InAppWebView.swift */,
+				82D169C2612CA6FDFB80E8682FE08E11 /* InAppWebViewOptions.swift */,
+			);
+			name = InAppWebView;
+			path = InAppWebView;
+			sourceTree = "<group>";
+		};
+		6A98D5DE2311F5C5F19B41D173C916D7 /* ios */ = {
+			isa = PBXGroup;
+			children = (
+				E160AC017477640798E39A57ED836219 /* Classes */,
+				C325554D489709BF486E71E238814B6B /* Storyboards */,
+			);
+			name = ios;
+			path = ios;
+			sourceTree = "<group>";
+		};
+		7560553B891FEEF82323950F1071DAA5 /* plugins */ = {
+			isa = PBXGroup;
+			children = (
+				87B54412F083AD31A6EA306234498601 /* flutter_inappwebview */,
+			);
+			name = plugins;
+			path = plugins;
+			sourceTree = "<group>";
+		};
+		78FC0A5B1E84D49E2BC925B9EECC47D7 /* SafariViewController */ = {
+			isa = PBXGroup;
+			children = (
+				3421E002D66876E1182CD350D1A08E34 /* ChromeSafariBrowserManager.swift */,
+				A874F820A07658691314019CECC4B1FB /* SafariBrowserOptions.swift */,
+				602DDF69E960390656DB3C3BA6553AA4 /* SafariViewController.swift */,
+			);
+			name = SafariViewController;
+			path = SafariViewController;
+			sourceTree = "<group>";
+		};
+		79FB2E435B0672FBB64DAE7FBABBE7CD /* Support Files */ = {
+			isa = PBXGroup;
+			children = (
+				21C9D8E89D3D842BF73C7F74EC8225A0 /* Flutter.debug.xcconfig */,
+				A9FBB571BED4B864EEEB686B13465C7E /* Flutter.release.xcconfig */,
+			);
+			name = "Support Files";
+			path = "../Pods/Target Support Files/Flutter";
+			sourceTree = "<group>";
+		};
+		7B7375E6309BE56C9BC4EA9E109CEB2B /* Pods-Runner */ = {
+			isa = PBXGroup;
+			children = (
+				708CDCBECE19528A113F0606FCF4F7CE /* Pods-Runner.modulemap */,
+				A921150CCFA681F261E38B07F3A17837 /* Pods-Runner-acknowledgements.markdown */,
+				7C64684685E94ADC2FCA3B5985315959 /* Pods-Runner-acknowledgements.plist */,
+				840D0754C1B8831C9E84C7A7777BF023 /* Pods-Runner-dummy.m */,
+				FAF038EEB68D0EC0DAB29C47E30038A8 /* Pods-Runner-resources.sh */,
+				98FF0987742F984F89345FC7E0684408 /* Pods-Runner-umbrella.h */,
+				53AF3AF6DD7CF1B1E6D7C60883746A1A /* Pods-Runner.debug.xcconfig */,
+				EBE9BF3E22F65735A1D716F2DBFBA401 /* Pods-Runner.profile.xcconfig */,
+				F9D86489E6638235A6B5928C4F86E442 /* Pods-Runner.release.xcconfig */,
+			);
+			name = "Pods-Runner";
+			path = "Target Support Files/Pods-Runner";
+			sourceTree = "<group>";
+		};
+		7C35E8E55BE7EA49540C8D07C9C1B024 /* Targets Support Files */ = {
+			isa = PBXGroup;
+			children = (
+				7B7375E6309BE56C9BC4EA9E109CEB2B /* Pods-Runner */,
+			);
+			name = "Targets Support Files";
+			sourceTree = "<group>";
+		};
+		84FB82A294098FA5C6A57322F24E223E /* Support Files */ = {
+			isa = PBXGroup;
+			children = (
+				512A9A6524713DAF78EC361AEAA7BD65 /* flutter_inappwebview.modulemap */,
+				B864BF3431ECA5CCD3A61B63EB02C11C /* flutter_inappwebview-dummy.m */,
+				35F300EB97B33BF43CDB5360CACC5C5E /* flutter_inappwebview-prefix.pch */,
+				59DFB1A4606472369193A23D716C8FC1 /* flutter_inappwebview-umbrella.h */,
+				44BC346F4B29A3AF3A721012B92917B0 /* flutter_inappwebview.debug.xcconfig */,
+				D5A750D6BA764649B639C704644743E7 /* flutter_inappwebview.release.xcconfig */,
+			);
+			name = "Support Files";
+			path = "../../../../Pods/Target Support Files/flutter_inappwebview";
+			sourceTree = "<group>";
+		};
+		87B54412F083AD31A6EA306234498601 /* flutter_inappwebview */ = {
+			isa = PBXGroup;
+			children = (
+				6A98D5DE2311F5C5F19B41D173C916D7 /* ios */,
+			);
+			name = flutter_inappwebview;
+			path = flutter_inappwebview;
+			sourceTree = "<group>";
+		};
+		8BB2574A1155CF2E8ACAAA8A7C4B1F0F /* PullToRefresh */ = {
+			isa = PBXGroup;
+			children = (
+				04B8B2454AE189570DB33C3E554DAF5C /* PullToRefreshControl.swift */,
+				56D00A72A2111DA6B7F176154DC7E9E4 /* PullToRefreshDelegate.swift */,
+				FF6B721D87D26FD39E29FC7C85CC8FBF /* PullToRefreshOptions.swift */,
+			);
+			name = PullToRefresh;
+			path = PullToRefresh;
+			sourceTree = "<group>";
+		};
+		9B23E5BA3ACF38E92D49ACFD2D1A3519 /* Pod */ = {
+			isa = PBXGroup;
+			children = (
+				8A97EEBB0C6816DCFA251C5EA5BEBDF3 /* Flutter.podspec */,
+			);
+			name = Pod;
+			sourceTree = "<group>";
+		};
+		9E9C341A8EC762CB297E693A6F3B4AEE /* HeadlessInAppWebView */ = {
+			isa = PBXGroup;
+			children = (
+				1003EEAF0E54A09D32412E3E482EDF81 /* HeadlessInAppWebView.swift */,
+				7D63BF7B6DEBF59333585A4DD4DCA959 /* HeadlessInAppWebViewManager.swift */,
+			);
+			name = HeadlessInAppWebView;
+			path = HeadlessInAppWebView;
+			sourceTree = "<group>";
+		};
+		A96DC039C9393C08C4E83D1259535F43 /* PluginScriptsJS */ = {
+			isa = PBXGroup;
+			children = (
+				73E56835315B133B1849C24190FF468A /* CallAsyncJavaScriptBelowIOS14WrapperJS.swift */,
+				44FADBF9E7272C559CC1E2DC21687033 /* ConsoleLogJS.swift */,
+				1A7EF6DFC8A2A0EDD642B6E1AD07683D /* EnableViewportScaleJS.swift */,
+				5E6C0C1D2693DD2B5F048A7A7065DC0B /* FindElementsAtPointJS.swift */,
+				5559055E2B6DBCA300CEF5C1F0B326B4 /* FindTextHighlightJS.swift */,
+				151723777853B0F83B71950A148B7EBB /* InterceptAjaxRequestJS.swift */,
+				63E33CE0BD9B369E0B8F4B9976371DEC /* InterceptFetchRequestJS.swift */,
+				12C52628C63818008F4DC80CF2A7BD47 /* JavaScriptBridgeJS.swift */,
+				1A51D0EB45D0C6F36069FE4D8DC27E53 /* LastTouchedAnchorOrImageJS.swift */,
+				3D101DB38F5914580EE7FCC0AF9B2E61 /* OnLoadResourceJS.swift */,
+				A65C3453BF9B4B4A4E845F161D4EE173 /* OnWindowBlurEventJS.swift */,
+				614882FD0BC760DB0BF52E7BF09778D7 /* OnWindowFocusEventJS.swift */,
+				C69EBBB97C057ABB6A5D83EDCF668351 /* OriginalViewPortMetaTagContentJS.swift */,
+				B8F86E299D7FBACEA337945E7FF3DB8D /* PluginScriptsUtil.swift */,
+				35FE80456088A2ED652D03D00E025C4B /* PrintJS.swift */,
+				02E6EBFD0E3CDA9CD6687EDCD2459755 /* PromisePolyfillJS.swift */,
+				95A9AA95F1F390E0938572534B83D6F8 /* SupportZoomJS.swift */,
+				E427CB1F12F138634D09CC7EB4CFFD46 /* WebMessageChannelJS.swift */,
+				2313ED0F866E11E6BC566920D61430FC /* WebMessageListenerJS.swift */,
+				17AC7D9131331366796E4D8DDFF0790A /* WindowIdJS.swift */,
+			);
+			name = PluginScriptsJS;
+			path = PluginScriptsJS;
+			sourceTree = "<group>";
+		};
+		AD39CA85B1128401170A3E7550BB9A30 /* ios */ = {
+			isa = PBXGroup;
+			children = (
+				0D5DDB6EE833AC560F9411D05D3CC8A1 /* .symlinks */,
+			);
+			name = ios;
+			path = ios;
+			sourceTree = "<group>";
+		};
+		AE1BE2C198C6AEB0AD2A4DAB763920B5 /* webtest */ = {
+			isa = PBXGroup;
+			children = (
+				AD39CA85B1128401170A3E7550BB9A30 /* ios */,
+			);
+			name = webtest;
+			path = webtest;
+			sourceTree = "<group>";
+		};
+		BB802FA26F126E3E93D88D6F3F7D2DFF /* .. */ = {
+			isa = PBXGroup;
+			children = (
+				5E641B8FB1FB59A38A8BD46FE1E60E03 /* .. */,
+			);
+			name = ..;
+			path = ..;
+			sourceTree = "<group>";
+		};
+		C325554D489709BF486E71E238814B6B /* Storyboards */ = {
+			isa = PBXGroup;
+			children = (
+				1FCF70CD12B366ACD03140BFCA6A977B /* WebView.storyboard */,
+			);
+			name = Storyboards;
+			path = Storyboards;
+			sourceTree = "<group>";
+		};
+		C84672CBF4D0A07E37CF959C69763E66 /* Pod */ = {
+			isa = PBXGroup;
+			children = (
+				EAA9CE4206B36D0661BFB808CACF45A3 /* flutter_inappwebview.podspec */,
+				CD39E02B87169010020A281554410A41 /* LICENSE */,
+			);
+			name = Pod;
+			sourceTree = "<group>";
+		};
+		CF1408CF629C7361332E53B88F7BD30C = {
+			isa = PBXGroup;
+			children = (
+				9D940727FF8FB9C785EB98E56350EF41 /* Podfile */,
+				2E9F36961EF8B84B703736E736582BE6 /* Development Pods */,
+				D89477F20FB1DE18A04690586D7808C4 /* Frameworks */,
+				4C20BBC6F517C6B8680470BA4A5DA40E /* Pods */,
+				45CE82F958F9849344B26FF4E432EB9B /* Products */,
+				7C35E8E55BE7EA49540C8D07C9C1B024 /* Targets Support Files */,
+			);
+			sourceTree = "<group>";
+		};
+		D3BA9AB794C653F1861CF804C27667BE /* OrderedSet */ = {
+			isa = PBXGroup;
+			children = (
+				F2D1E9409D2EB31B2216F73EF417FCA0 /* OrderedSet.swift */,
+				4F8EDDABE2AB82559B45EC8434807B1B /* Support Files */,
+			);
+			name = OrderedSet;
+			path = OrderedSet;
+			sourceTree = "<group>";
+		};
+		D89477F20FB1DE18A04690586D7808C4 /* Frameworks */ = {
+			isa = PBXGroup;
+			children = (
+			);
+			name = Frameworks;
+			sourceTree = "<group>";
+		};
+		E0F103ED9310EA5576F969EC8F69BDEB /* InAppBrowser */ = {
+			isa = PBXGroup;
+			children = (
+				E7060C7F1A664E021C637B590E8922BD /* InAppBrowserDelegate.swift */,
+				E0F254E8A2A34C62FC20577AB568569F /* InAppBrowserManager.swift */,
+				077BA746DDD617594DC39C7617E0B13D /* InAppBrowserNavigationController.swift */,
+				AAA1024DB63088E442EAD6EE32100D2A /* InAppBrowserOptions.swift */,
+				98923F7D29B92F8F729763C15C04FFD1 /* InAppBrowserWebViewController.swift */,
+			);
+			name = InAppBrowser;
+			path = InAppBrowser;
+			sourceTree = "<group>";
+		};
+		E160AC017477640798E39A57ED836219 /* Classes */ = {
+			isa = PBXGroup;
+			children = (
+				FBE59EEBE308F1FCEDF2F2207AB3CC35 /* ContextMenuOptions.swift */,
+				F741C6B5969C669F7ED08A3D19941C59 /* CredentialDatabase.swift */,
+				70A3D64F298F912986AE0F8D38B9BA2F /* CustomeSchemeHandler.swift */,
+				BAF0E8A0A7F69260D15356C8CCB2FC8A /* FlutterMethodCallDelegate.swift */,
+				CF69C607436DA9B355B1BBA31007ED99 /* HttpAuthenticationChallenge.swift */,
+				A05C202BBD590EBDFA496E52033B2E92 /* InAppWebViewFlutterPlugin.h */,
+				85968A4110EA21F8CECE1603A2FBA42C /* InAppWebViewFlutterPlugin.m */,
+				BDB6B238DDAC5E1D2425A1D83432CAC4 /* InAppWebViewMethodHandler.swift */,
+				20EB7173915709A03505B9E70D260C66 /* InAppWebViewStatic.swift */,
+				D7C130B6F8C45E48D943349059FD24C1 /* LeakAvoider.swift */,
+				C085386047C92A63846333CE63D997E7 /* MyCookieManager.swift */,
+				CABAE7F0D09EEBE2685B024A76C0DD7A /* MyWebStorageManager.swift */,
+				4A540D57D0C2109E3FF7ABFBB1F038BA /* Options.swift */,
+				1CE4001B187E637CA38462D70A0FB39B /* PlatformUtil.swift */,
+				CC504E28292D813418B35CEE858441C2 /* SwiftFlutterPlugin.swift */,
+				EE4B2980C917E951B4C23EB96CB93A79 /* Util.swift */,
+				111B1BF4D781DF52420B139EF88AADB9 /* WKProcessPoolManager.swift */,
+				9E9C341A8EC762CB297E693A6F3B4AEE /* HeadlessInAppWebView */,
+				E0F103ED9310EA5576F969EC8F69BDEB /* InAppBrowser */,
+				690E3D07978A22E4FA97C33292095061 /* InAppWebView */,
+				A96DC039C9393C08C4E83D1259535F43 /* PluginScriptsJS */,
+				8BB2574A1155CF2E8ACAAA8A7C4B1F0F /* PullToRefresh */,
+				78FC0A5B1E84D49E2BC925B9EECC47D7 /* SafariViewController */,
+				197F3AF045B4073C35BD4B669BF712D1 /* Types */,
+			);
+			name = Classes;
+			path = Classes;
+			sourceTree = "<group>";
+		};
+		E2DE96465886D41164E983B72E51D4C3 /* .. */ = {
+			isa = PBXGroup;
+			children = (
+				BB802FA26F126E3E93D88D6F3F7D2DFF /* .. */,
+			);
+			name = ..;
+			path = ..;
+			sourceTree = "<group>";
+		};
+/* End PBXGroup section */
+
+/* Begin PBXHeadersBuildPhase section */
+		491A03ED0419E96E197A5438B602AAA0 /* Headers */ = {
+			isa = PBXHeadersBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				A8E33E165DEE51CA257EC8A47090CD2E /* flutter_inappwebview-umbrella.h in Headers */,
+				115D8686384A8B9D92F30FEC387DE83E /* InAppWebViewFlutterPlugin.h in Headers */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		D9ABC93440C88E3917866FDBE3899E33 /* Headers */ = {
+			isa = PBXHeadersBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				654CA7AD4957C68C89785B6225DB6A58 /* Pods-Runner-umbrella.h in Headers */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		EC6DD0CCF54144D409F8AF1313B8F64A /* Headers */ = {
+			isa = PBXHeadersBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				FB8ED5708FAF4140B741092BA32EEB2F /* OrderedSet-umbrella.h in Headers */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXHeadersBuildPhase section */
+
+/* Begin PBXNativeTarget section */
+		1FF87323EE36EEC3288ACC236433F23A /* flutter_inappwebview */ = {
+			isa = PBXNativeTarget;
+			buildConfigurationList = 50470186C10C8E6F524BE972361A74E2 /* Build configuration list for PBXNativeTarget "flutter_inappwebview" */;
+			buildPhases = (
+				491A03ED0419E96E197A5438B602AAA0 /* Headers */,
+				CAF1FA0E25E9823E2CC9C1FB708A33D6 /* Sources */,
+				6ED5168839C54EBA7593D13ED668C71A /* Frameworks */,
+				A1D5939A37CB9A91049A3B8F99488804 /* Copy generated compatibility header */,
+			);
+			buildRules = (
+			);
+			dependencies = (
+				D2D800EE369A4AEA59642B62201664AF /* PBXTargetDependency */,
+				2BF3876F14818C5F8F2ED0D5ADF71081 /* PBXTargetDependency */,
+			);
+			name = flutter_inappwebview;
+			productName = flutter_inappwebview;
+			productReference = 60E8C9E19751405B57238651D372C6EE /* flutter_inappwebview */;
+			productType = "com.apple.product-type.library.static";
+		};
+		2F8410D3DA69756D81B1FE8C64A8ED4B /* OrderedSet */ = {
+			isa = PBXNativeTarget;
+			buildConfigurationList = 517109CE78FFAAB498A766C44D2E01FC /* Build configuration list for PBXNativeTarget "OrderedSet" */;
+			buildPhases = (
+				EC6DD0CCF54144D409F8AF1313B8F64A /* Headers */,
+				844A68ECE8A0D43F70A8EC97F9B334B8 /* Sources */,
+				2468A28FC723BF0A0E0623355FDB3A82 /* Frameworks */,
+				2663A2328F0BBA2A7FFCB57862DAC701 /* Copy generated compatibility header */,
+			);
+			buildRules = (
+			);
+			dependencies = (
+			);
+			name = OrderedSet;
+			productName = OrderedSet;
+			productReference = D6EBE65F84049F9760E6EE01E900D99F /* OrderedSet */;
+			productType = "com.apple.product-type.library.static";
+		};
+		8B74B458B450D74B75744B87BD747314 /* Pods-Runner */ = {
+			isa = PBXNativeTarget;
+			buildConfigurationList = BF69737D2959314445F3BCE26844055A /* Build configuration list for PBXNativeTarget "Pods-Runner" */;
+			buildPhases = (
+				D9ABC93440C88E3917866FDBE3899E33 /* Headers */,
+				2564359922A8A32860F4335C15B9514B /* Sources */,
+				75192A1BB18F1AAC29DFF8CCDFDFC68B /* Frameworks */,
+			);
+			buildRules = (
+			);
+			dependencies = (
+				782E8A6C445B7AC9154F82F5CCB8EF63 /* PBXTargetDependency */,
+				790BAEDC9231CFFA2392B4EC0ECBF768 /* PBXTargetDependency */,
+				4BDBC86A5391880CC1AD0ED37362B5F4 /* PBXTargetDependency */,
+			);
+			name = "Pods-Runner";
+			productName = "Pods-Runner";
+			productReference = 669E8F25E1897672BDB80B7EB784DA24 /* Pods-Runner */;
+			productType = "com.apple.product-type.library.static";
+		};
+/* End PBXNativeTarget section */
+
+/* Begin PBXProject section */
+		BFDFE7DC352907FC980B868725387E98 /* Project object */ = {
+			isa = PBXProject;
+			attributes = {
+				LastSwiftUpdateCheck = 1240;
+				LastUpgradeCheck = 1240;
+			};
+			buildConfigurationList = 4821239608C13582E20E6DA73FD5F1F9 /* Build configuration list for PBXProject "Pods" */;
+			compatibilityVersion = "Xcode 12.0";
+			developmentRegion = en;
+			hasScannedForEncodings = 0;
+			knownRegions = (
+				Base,
+				en,
+			);
+			mainGroup = CF1408CF629C7361332E53B88F7BD30C;
+			productRefGroup = 45CE82F958F9849344B26FF4E432EB9B /* Products */;
+			projectDirPath = "";
+			projectRoot = "";
+			targets = (
+				1EFDDC32A34D56D411E640A81DCD9E73 /* Flutter */,
+				1FF87323EE36EEC3288ACC236433F23A /* flutter_inappwebview */,
+				2F8410D3DA69756D81B1FE8C64A8ED4B /* OrderedSet */,
+				8B74B458B450D74B75744B87BD747314 /* Pods-Runner */,
+			);
+		};
+/* End PBXProject section */
+
+/* Begin PBXShellScriptBuildPhase section */
+		2663A2328F0BBA2A7FFCB57862DAC701 /* Copy generated compatibility header */ = {
+			isa = PBXShellScriptBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			inputFileListPaths = (
+			);
+			inputPaths = (
+				"${DERIVED_SOURCES_DIR}/${PRODUCT_MODULE_NAME}-Swift.h",
+				"${PODS_ROOT}/Headers/Public/OrderedSet/OrderedSet.modulemap",
+				"${PODS_ROOT}/Headers/Public/OrderedSet/OrderedSet-umbrella.h",
+			);
+			name = "Copy generated compatibility header";
+			outputFileListPaths = (
+			);
+			outputPaths = (
+				"${BUILT_PRODUCTS_DIR}/${PRODUCT_MODULE_NAME}.modulemap",
+				"${BUILT_PRODUCTS_DIR}/OrderedSet-umbrella.h",
+				"${BUILT_PRODUCTS_DIR}/Swift Compatibility Header/${PRODUCT_MODULE_NAME}-Swift.h",
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+			shellPath = /bin/sh;
+			shellScript = "COMPATIBILITY_HEADER_PATH=\"${BUILT_PRODUCTS_DIR}/Swift Compatibility Header/${PRODUCT_MODULE_NAME}-Swift.h\"\nMODULE_MAP_PATH=\"${BUILT_PRODUCTS_DIR}/${PRODUCT_MODULE_NAME}.modulemap\"\n\nditto \"${DERIVED_SOURCES_DIR}/${PRODUCT_MODULE_NAME}-Swift.h\" \"${COMPATIBILITY_HEADER_PATH}\"\nditto \"${PODS_ROOT}/Headers/Public/OrderedSet/OrderedSet.modulemap\" \"${MODULE_MAP_PATH}\"\nditto \"${PODS_ROOT}/Headers/Public/OrderedSet/OrderedSet-umbrella.h\" \"${BUILT_PRODUCTS_DIR}\"\nprintf \"\\n\\nmodule ${PRODUCT_MODULE_NAME}.Swift {\\n  header \\\"${COMPATIBILITY_HEADER_PATH}\\\"\\n  requires objc\\n}\\n\" >> \"${MODULE_MAP_PATH}\"\n";
+		};
+		A1D5939A37CB9A91049A3B8F99488804 /* Copy generated compatibility header */ = {
+			isa = PBXShellScriptBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			inputFileListPaths = (
+			);
+			inputPaths = (
+				"${DERIVED_SOURCES_DIR}/${PRODUCT_MODULE_NAME}-Swift.h",
+				"${PODS_ROOT}/Headers/Public/flutter_inappwebview/flutter_inappwebview.modulemap",
+				"${PODS_ROOT}/Headers/Public/flutter_inappwebview/flutter_inappwebview-umbrella.h",
+			);
+			name = "Copy generated compatibility header";
+			outputFileListPaths = (
+			);
+			outputPaths = (
+				"${BUILT_PRODUCTS_DIR}/${PRODUCT_MODULE_NAME}.modulemap",
+				"${BUILT_PRODUCTS_DIR}/flutter_inappwebview-umbrella.h",
+				"${BUILT_PRODUCTS_DIR}/Swift Compatibility Header/${PRODUCT_MODULE_NAME}-Swift.h",
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+			shellPath = /bin/sh;
+			shellScript = "COMPATIBILITY_HEADER_PATH=\"${BUILT_PRODUCTS_DIR}/Swift Compatibility Header/${PRODUCT_MODULE_NAME}-Swift.h\"\nMODULE_MAP_PATH=\"${BUILT_PRODUCTS_DIR}/${PRODUCT_MODULE_NAME}.modulemap\"\n\nditto \"${DERIVED_SOURCES_DIR}/${PRODUCT_MODULE_NAME}-Swift.h\" \"${COMPATIBILITY_HEADER_PATH}\"\nditto \"${PODS_ROOT}/Headers/Public/flutter_inappwebview/flutter_inappwebview.modulemap\" \"${MODULE_MAP_PATH}\"\nditto \"${PODS_ROOT}/Headers/Public/flutter_inappwebview/flutter_inappwebview-umbrella.h\" \"${BUILT_PRODUCTS_DIR}\"\nprintf \"\\n\\nmodule ${PRODUCT_MODULE_NAME}.Swift {\\n  header \\\"${COMPATIBILITY_HEADER_PATH}\\\"\\n  requires objc\\n}\\n\" >> \"${MODULE_MAP_PATH}\"\n";
+		};
+/* End PBXShellScriptBuildPhase section */
+
+/* Begin PBXSourcesBuildPhase section */
+		2564359922A8A32860F4335C15B9514B /* Sources */ = {
+			isa = PBXSourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				970439E2A1F0DFD19A090502A22A0DC0 /* Pods-Runner-dummy.m in Sources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		844A68ECE8A0D43F70A8EC97F9B334B8 /* Sources */ = {
+			isa = PBXSourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				90E68C857A9A9BFB1BC1969F5D2B2EF0 /* OrderedSet.swift in Sources */,
+				7B35BF9DF0BEC2A512E546B33FBB77CF /* OrderedSet-dummy.m in Sources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		CAF1FA0E25E9823E2CC9C1FB708A33D6 /* Sources */ = {
+			isa = PBXSourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				60DE71B45DC997E636210B785A52175B /* CallAsyncJavaScriptBelowIOS14WrapperJS.swift in Sources */,
+				63DCF14229C6B03ABF85774709FAA914 /* ChromeSafariBrowserManager.swift in Sources */,
+				E8C18C252B5E16A5B4AD778E959AAD00 /* ClientCertChallenge.swift in Sources */,
+				89DAE96DF298321A74191DC8C6693F79 /* ConsoleLogJS.swift in Sources */,
+				0A240ED092B6874978429829EAD92BD8 /* ContextMenuOptions.swift in Sources */,
+				88AA85AC4BBA76E27B251584EBB64F83 /* CredentialDatabase.swift in Sources */,
+				924EB0DF3AA8AB4789C8B3E1F180DB14 /* CustomeSchemeHandler.swift in Sources */,
+				46963F44ACB52CBB57E3F44B2FDAE93D /* DownloadStartRequest.swift in Sources */,
+				C9009E8F8B20945CB7D94FB2CE10CD3D /* EnableViewportScaleJS.swift in Sources */,
+				6D7EB5C0FAC33A49BF232E9F3F3DF489 /* FindElementsAtPointJS.swift in Sources */,
+				774422D03A4C5C815863A5DC0E0D754A /* FindTextHighlightJS.swift in Sources */,
+				8EC88D10C7AD88AD0BC763AA9C2048D0 /* flutter_inappwebview-dummy.m in Sources */,
+				307208FE3D51BA01B8F5ADAA8A08DBF3 /* FlutterMethodCallDelegate.swift in Sources */,
+				3BC99150B337E0569417082F3928A7B1 /* FlutterWebViewController.swift in Sources */,
+				748D60666FEDA5CA7DA3F1BCD6C75DB6 /* FlutterWebViewFactory.swift in Sources */,
+				3D5643E1A90FC939C4E41185DD289DA7 /* HeadlessInAppWebView.swift in Sources */,
+				7E48CBB74E0301486FB5D8CA83C63F90 /* HeadlessInAppWebViewManager.swift in Sources */,
+				8D9015287BEAC234E3E85189108EE039 /* HitTestResult.swift in Sources */,
+				243E901CAF466A71763D4056314769D5 /* HttpAuthenticationChallenge.swift in Sources */,
+				3A814D3F4B4B58DAB834CC4C3713AF7B /* InAppBrowserDelegate.swift in Sources */,
+				8A5ABED494707EDA6DA19312D806FD81 /* InAppBrowserManager.swift in Sources */,
+				325DFEEB993BECA4D487103FD99DBFE0 /* InAppBrowserNavigationController.swift in Sources */,
+				11CE19DCF0E28D73E0AA42B807454C58 /* InAppBrowserOptions.swift in Sources */,
+				EF5CAFF98846BB0D1E53F7232AF83784 /* InAppBrowserWebViewController.swift in Sources */,
+				244337F652C75AAED0D4DCF27CF76FB8 /* InAppWebView.swift in Sources */,
+				E4433B443FFBD16D038DB3C477FA0524 /* InAppWebViewFlutterPlugin.m in Sources */,
+				D22FEF97A3CE5B963CEAA1C532E959AA /* InAppWebViewMethodHandler.swift in Sources */,
+				FF71F64249E3F933D9372EC7BAD7496D /* InAppWebViewOptions.swift in Sources */,
+				22D9475997AFCA381C1D9F6407FE3A0C /* InAppWebViewStatic.swift in Sources */,
+				CB161E66A0F53C73EA2573EE8C0A670D /* InterceptAjaxRequestJS.swift in Sources */,
+				811713816148506259D34F9FC06A8D41 /* InterceptFetchRequestJS.swift in Sources */,
+				ACCF5280198C46B9411AB1F7CD9FA57A /* JavaScriptBridgeJS.swift in Sources */,
+				163EC2A5B36858FB9563599FADF402A0 /* LastTouchedAnchorOrImageJS.swift in Sources */,
+				FAC317B720156D71C6E477E5749A1C1E /* LeakAvoider.swift in Sources */,
+				FFDCB17913BE5BB3F75FCFC0990C7A8E /* MyCookieManager.swift in Sources */,
+				5D97D083CDD44ABFF449C39FC3C59DB3 /* MyWebStorageManager.swift in Sources */,
+				3B0679EE2DB4972713C5126AE8934FDE /* NSAttributedString.swift in Sources */,
+				139665E3F31D4BDFEBF2BC5BF2186642 /* OnLoadResourceJS.swift in Sources */,
+				7243F68DDC2EABBC9F6462989AE30F2F /* OnWindowBlurEventJS.swift in Sources */,
+				70D7196F32793730BB1B3865A8C3DC64 /* OnWindowFocusEventJS.swift in Sources */,
+				86421EEDC2EC02B03890E4C231BD424E /* Options.swift in Sources */,
+				CDF8A4ADBAC7C4BBF3F33DF96E695C75 /* OriginalViewPortMetaTagContentJS.swift in Sources */,
+				9A6B328BF1BF764C74CECE2A8FF314DA /* PlatformUtil.swift in Sources */,
+				A4A7AE9BC0BA2C6F110D77D19AA1D3E6 /* PluginScript.swift in Sources */,
+				75D671A5499FD1643D2114121D87F91F /* PluginScriptsUtil.swift in Sources */,
+				10A057B3A45DF50991A5027873BFEAC2 /* PrintJS.swift in Sources */,
+				99C7FD19CE0CE4B4C074550CC536F25B /* PromisePolyfillJS.swift in Sources */,
+				FAD2AF503D6E3477039F988470CAB71F /* PullToRefreshControl.swift in Sources */,
+				6F064126A56357DF387350105D30E8AE /* PullToRefreshDelegate.swift in Sources */,
+				FD545A3C14345313FC075F164871C105 /* PullToRefreshOptions.swift in Sources */,
+				6AB6F20EE014525BC57F4CD6FC9BDB1E /* SafariBrowserOptions.swift in Sources */,
+				5085B35D56056B922B80BFF63C9B490C /* SafariViewController.swift in Sources */,
+				9DDBABC47C694C305DD224732640E73A /* SecCertificate.swift in Sources */,
+				2908C0677BFA1FAF1E1F17DA17CF5DFF /* ServerTrustChallenge.swift in Sources */,
+				B08FAD5B5AA504DB1710F7DE55ABC8A3 /* Size2D.swift in Sources */,
+				0250E89FC169A8B98C292AEA5B5AF161 /* SslCertificate.swift in Sources */,
+				DBC08B8BA2765E50FF54E2579CDA01F1 /* SslError.swift in Sources */,
+				C88557A9246ABFBBAA5C98362042423D /* SupportZoomJS.swift in Sources */,
+				4E82C5A9E30CB87615A511E534E451C2 /* SwiftFlutterPlugin.swift in Sources */,
+				5C460D458037FAA54E00C5B690BBC548 /* UIColor.swift in Sources */,
+				76CA873C405EC2AA2ADE1F8B1D7E5741 /* URLAuthenticationChallenge.swift in Sources */,
+				08FD48F0DF76E752FC803004A3751F47 /* URLCredential.swift in Sources */,
+				D1745CDA11E62191AA1850C5131346B6 /* URLProtectionSpace.swift in Sources */,
+				42CF902CFCF2E7E2CDE2134DD123E175 /* URLRequest.swift in Sources */,
+				E1205A561719C8C0409908A7C5500A21 /* URLResponse.swift in Sources */,
+				2D908E5792104644DC658D4D99168ED0 /* UserScript.swift in Sources */,
+				55353D6C96715AE791DAFD45681E42FD /* Util.swift in Sources */,
+				D6EAB2F6B6CA60F964E8740BF0381493 /* WebMessage.swift in Sources */,
+				E03B9E81AC5DD91687FB32ECD7F0D483 /* WebMessageChannel.swift in Sources */,
+				11CC54C754FBC675D2469677D3A58C31 /* WebMessageChannelJS.swift in Sources */,
+				2152B567E41AA8FF7E1C7D35C7E7409E /* WebMessageListener.swift in Sources */,
+				57E64BA632D62C82015C893C73F3CC03 /* WebMessageListenerJS.swift in Sources */,
+				BD0B350A4FCB86DA407343282F7A7C29 /* WebMessagePort.swift in Sources */,
+				B59DDF9A9112CA120DC696E24D89C104 /* WebViewTransport.swift in Sources */,
+				6BA5AA651ED7CACA5A1BD02E67E3B6A8 /* WindowIdJS.swift in Sources */,
+				72D8226E98FF2A08A8CBB70290CADE9C /* WKContentWorld.swift in Sources */,
+				7AA480D61902AA1ACCE8959BA7A2C030 /* WKFrameInfo.swift in Sources */,
+				C20C5C3842ABD1971470EA5A81AB6196 /* WKNavigationAction.swift in Sources */,
+				FEDC9B52CEDD1856A522904D792F8361 /* WKNavigationResponse.swift in Sources */,
+				2B319DBC63A7017FCDE3BEC8059F2176 /* WKProcessPoolManager.swift in Sources */,
+				317BD3A0562350FF3206372E44B194EE /* WKSecurityOrigin.swift in Sources */,
+				686AE03A70855DD654DBB1F8E37CA1E5 /* WKUserContentController.swift in Sources */,
+				5A03FE3D2D45CA2ED09BC1668AA77C5E /* WKWindowFeatures.swift in Sources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXSourcesBuildPhase section */
+
+/* Begin PBXTargetDependency section */
+		2BF3876F14818C5F8F2ED0D5ADF71081 /* PBXTargetDependency */ = {
+			isa = PBXTargetDependency;
+			name = OrderedSet;
+			target = 2F8410D3DA69756D81B1FE8C64A8ED4B /* OrderedSet */;
+			targetProxy = 423CA678118E97491894E0DA2CE30F3F /* PBXContainerItemProxy */;
+		};
+		4BDBC86A5391880CC1AD0ED37362B5F4 /* PBXTargetDependency */ = {
+			isa = PBXTargetDependency;
+			name = flutter_inappwebview;
+			target = 1FF87323EE36EEC3288ACC236433F23A /* flutter_inappwebview */;
+			targetProxy = 82AE6D31B99A410D5FE487A22EB6E762 /* PBXContainerItemProxy */;
+		};
+		782E8A6C445B7AC9154F82F5CCB8EF63 /* PBXTargetDependency */ = {
+			isa = PBXTargetDependency;
+			name = Flutter;
+			target = 1EFDDC32A34D56D411E640A81DCD9E73 /* Flutter */;
+			targetProxy = 82C05B49880D859FC0671C5855073543 /* PBXContainerItemProxy */;
+		};
+		790BAEDC9231CFFA2392B4EC0ECBF768 /* PBXTargetDependency */ = {
+			isa = PBXTargetDependency;
+			name = OrderedSet;
+			target = 2F8410D3DA69756D81B1FE8C64A8ED4B /* OrderedSet */;
+			targetProxy = EA8C24FA8C65886F77ED370CDC756745 /* PBXContainerItemProxy */;
+		};
+		D2D800EE369A4AEA59642B62201664AF /* PBXTargetDependency */ = {
+			isa = PBXTargetDependency;
+			name = Flutter;
+			target = 1EFDDC32A34D56D411E640A81DCD9E73 /* Flutter */;
+			targetProxy = 09BAADFB61146B61BC9F14306AD4D86C /* PBXContainerItemProxy */;
+		};
+/* End PBXTargetDependency section */
+
+/* Begin XCBuildConfiguration section */
+		123B0D65A35211FC43B8BEE770443D25 /* Release */ = {
+			isa = XCBuildConfiguration;
+			baseConfigurationReference = A9FBB571BED4B864EEEB686B13465C7E /* Flutter.release.xcconfig */;
+			buildSettings = {
+				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
+				ASSETCATALOG_COMPILER_GLOBAL_ACCENT_COLOR_NAME = AccentColor;
+				CLANG_ENABLE_OBJC_WEAK = NO;
+				IPHONEOS_DEPLOYMENT_TARGET = 11.0;
+				LD_RUNPATH_SEARCH_PATHS = (
+					"$(inherited)",
+					"@executable_path/Frameworks",
+				);
+				SDKROOT = iphoneos;
+				TARGETED_DEVICE_FAMILY = "1,2";
+				VALIDATE_PRODUCT = YES;
+			};
+			name = Release;
+		};
+		39ACF7C9F9F65C8AAF882586C5DE1C45 /* Debug */ = {
+			isa = XCBuildConfiguration;
+			baseConfigurationReference = 53AF3AF6DD7CF1B1E6D7C60883746A1A /* Pods-Runner.debug.xcconfig */;
+			buildSettings = {
+				ALWAYS_EMBED_SWIFT_STANDARD_LIBRARIES = NO;
+				CLANG_ENABLE_OBJC_WEAK = NO;
+				CLANG_WARN_QUOTED_INCLUDE_IN_FRAMEWORK_HEADER = NO;
+				"CODE_SIGN_IDENTITY[sdk=appletvos*]" = "";
+				"CODE_SIGN_IDENTITY[sdk=iphoneos*]" = "";
+				"CODE_SIGN_IDENTITY[sdk=watchos*]" = "";
+				ENABLE_BITCODE = NO;
+				"EXCLUDED_ARCHS[sdk=iphoneos*]" = "$(inherited) armv7";
+				"EXCLUDED_ARCHS[sdk=iphonesimulator*]" = "$(inherited) i386";
+				"FRAMEWORK_SEARCH_PATHS[sdk=iphoneos*]" = (
+					"\"/Users/racmahul/flutter/bin/cache/artifacts/engine/ios/Flutter.xcframework/ios-arm64\"",
+					"$(inherited)",
+				);
+				"FRAMEWORK_SEARCH_PATHS[sdk=iphonesimulator*]" = (
+					"\"/Users/racmahul/flutter/bin/cache/artifacts/engine/ios/Flutter.xcframework/ios-arm64_x86_64-simulator\"",
+					"$(inherited)",
+				);
+				IPHONEOS_DEPLOYMENT_TARGET = 11.0;
+				MACH_O_TYPE = staticlib;
+				MODULEMAP_FILE = "Target Support Files/Pods-Runner/Pods-Runner.modulemap";
+				ONLY_ACTIVE_ARCH = NO;
+				OTHER_LDFLAGS = (
+					"$(inherited)",
+					"-framework",
+					Flutter,
+				);
+				OTHER_LIBTOOLFLAGS = "";
+				PODS_ROOT = "$(SRCROOT)";
+				PRODUCT_BUNDLE_IDENTIFIER = "org.cocoapods.${PRODUCT_NAME:rfc1034identifier}";
+				SDKROOT = iphoneos;
+				SKIP_INSTALL = YES;
+				TARGETED_DEVICE_FAMILY = "1,2";
+				"VALID_ARCHS[sdk=iphonesimulator*]" = "$(ARCHS_STANDARD)";
+			};
+			name = Debug;
+		};
+		39D34B28B2702785ABB2A863B20ACDBB /* Debug */ = {
+			isa = XCBuildConfiguration;
+			baseConfigurationReference = 0E7F5A09C7132CEF575D10A1DF07C8CB /* OrderedSet.debug.xcconfig */;
+			buildSettings = {
+				"CODE_SIGN_IDENTITY[sdk=appletvos*]" = "";
+				"CODE_SIGN_IDENTITY[sdk=iphoneos*]" = "";
+				"CODE_SIGN_IDENTITY[sdk=watchos*]" = "";
+				GCC_PREFIX_HEADER = "Target Support Files/OrderedSet/OrderedSet-prefix.pch";
+				IPHONEOS_DEPLOYMENT_TARGET = 8.0;
+				MODULEMAP_FILE = Headers/Public/OrderedSet/OrderedSet.modulemap;
+				ONLY_ACTIVE_ARCH = NO;
+				OTHER_LDFLAGS = "";
+				OTHER_LIBTOOLFLAGS = "";
+				PRIVATE_HEADERS_FOLDER_PATH = "";
+				PRODUCT_MODULE_NAME = OrderedSet;
+				PRODUCT_NAME = OrderedSet;
+				PUBLIC_HEADERS_FOLDER_PATH = "";
+				SDKROOT = iphoneos;
+				SKIP_INSTALL = YES;
+				SWIFT_ACTIVE_COMPILATION_CONDITIONS = "$(inherited) ";
+				SWIFT_VERSION = 5.0;
+				TARGETED_DEVICE_FAMILY = "1,2";
+			};
+			name = Debug;
+		};
+		5CDA82F74C722E5EB69C0BAE31C710A9 /* Release */ = {
+			isa = XCBuildConfiguration;
+			baseConfigurationReference = D5A750D6BA764649B639C704644743E7 /* flutter_inappwebview.release.xcconfig */;
+			buildSettings = {
+				CLANG_WARN_QUOTED_INCLUDE_IN_FRAMEWORK_HEADER = NO;
+				"CODE_SIGN_IDENTITY[sdk=appletvos*]" = "";
+				"CODE_SIGN_IDENTITY[sdk=iphoneos*]" = "";
+				"CODE_SIGN_IDENTITY[sdk=watchos*]" = "";
+				ENABLE_BITCODE = NO;
+				"EXCLUDED_ARCHS[sdk=iphoneos*]" = "$(inherited) armv7";
+				"EXCLUDED_ARCHS[sdk=iphonesimulator*]" = "$(inherited) i386";
+				"FRAMEWORK_SEARCH_PATHS[sdk=iphoneos*]" = (
+					"\"/Users/racmahul/flutter/bin/cache/artifacts/engine/ios-release/Flutter.xcframework/ios-arm64\"",
+					"$(inherited)",
+				);
+				"FRAMEWORK_SEARCH_PATHS[sdk=iphonesimulator*]" = (
+					"\"/Users/racmahul/flutter/bin/cache/artifacts/engine/ios-release/Flutter.xcframework/ios-arm64_x86_64-simulator\"",
+					"$(inherited)",
+				);
+				GCC_PREFIX_HEADER = "Target Support Files/flutter_inappwebview/flutter_inappwebview-prefix.pch";
+				MODULEMAP_FILE = Headers/Public/flutter_inappwebview/flutter_inappwebview.modulemap;
+				OTHER_LDFLAGS = (
+					"$(inherited)",
+					"-framework",
+					Flutter,
+				);
+				OTHER_LIBTOOLFLAGS = "";
+				PRIVATE_HEADERS_FOLDER_PATH = "";
+				PRODUCT_MODULE_NAME = flutter_inappwebview;
+				PRODUCT_NAME = flutter_inappwebview;
+				PUBLIC_HEADERS_FOLDER_PATH = "";
+				SDKROOT = iphoneos;
+				SKIP_INSTALL = YES;
+				SWIFT_ACTIVE_COMPILATION_CONDITIONS = "$(inherited) ";
+				SWIFT_VERSION = 5.0;
+				TARGETED_DEVICE_FAMILY = "1,2";
+				VALIDATE_PRODUCT = YES;
+				"VALID_ARCHS[sdk=iphonesimulator*]" = "$(ARCHS_STANDARD)";
+			};
+			name = Release;
+		};
+		641FEF24DFD795497758ED10D504B3B9 /* Release */ = {
+			isa = XCBuildConfiguration;
+			baseConfigurationReference = 00689F4787B06C5F3738F54EBBC2B67E /* OrderedSet.release.xcconfig */;
+			buildSettings = {
+				"CODE_SIGN_IDENTITY[sdk=appletvos*]" = "";
+				"CODE_SIGN_IDENTITY[sdk=iphoneos*]" = "";
+				"CODE_SIGN_IDENTITY[sdk=watchos*]" = "";
+				GCC_PREFIX_HEADER = "Target Support Files/OrderedSet/OrderedSet-prefix.pch";
+				IPHONEOS_DEPLOYMENT_TARGET = 8.0;
+				MODULEMAP_FILE = Headers/Public/OrderedSet/OrderedSet.modulemap;
+				OTHER_LDFLAGS = "";
+				OTHER_LIBTOOLFLAGS = "";
+				PRIVATE_HEADERS_FOLDER_PATH = "";
+				PRODUCT_MODULE_NAME = OrderedSet;
+				PRODUCT_NAME = OrderedSet;
+				PUBLIC_HEADERS_FOLDER_PATH = "";
+				SDKROOT = iphoneos;
+				SKIP_INSTALL = YES;
+				SWIFT_ACTIVE_COMPILATION_CONDITIONS = "$(inherited) ";
+				SWIFT_VERSION = 5.0;
+				TARGETED_DEVICE_FAMILY = "1,2";
+				VALIDATE_PRODUCT = YES;
+			};
+			name = Release;
+		};
+		7821DA362C717F02108A8E05B738E2A7 /* Debug */ = {
+			isa = XCBuildConfiguration;
+			baseConfigurationReference = 44BC346F4B29A3AF3A721012B92917B0 /* flutter_inappwebview.debug.xcconfig */;
+			buildSettings = {
+				CLANG_WARN_QUOTED_INCLUDE_IN_FRAMEWORK_HEADER = NO;
+				"CODE_SIGN_IDENTITY[sdk=appletvos*]" = "";
+				"CODE_SIGN_IDENTITY[sdk=iphoneos*]" = "";
+				"CODE_SIGN_IDENTITY[sdk=watchos*]" = "";
+				ENABLE_BITCODE = NO;
+				"EXCLUDED_ARCHS[sdk=iphoneos*]" = "$(inherited) armv7";
+				"EXCLUDED_ARCHS[sdk=iphonesimulator*]" = "$(inherited) i386";
+				"FRAMEWORK_SEARCH_PATHS[sdk=iphoneos*]" = (
+					"\"/Users/racmahul/flutter/bin/cache/artifacts/engine/ios/Flutter.xcframework/ios-arm64\"",
+					"$(inherited)",
+				);
+				"FRAMEWORK_SEARCH_PATHS[sdk=iphonesimulator*]" = (
+					"\"/Users/racmahul/flutter/bin/cache/artifacts/engine/ios/Flutter.xcframework/ios-arm64_x86_64-simulator\"",
+					"$(inherited)",
+				);
+				GCC_PREFIX_HEADER = "Target Support Files/flutter_inappwebview/flutter_inappwebview-prefix.pch";
+				MODULEMAP_FILE = Headers/Public/flutter_inappwebview/flutter_inappwebview.modulemap;
+				ONLY_ACTIVE_ARCH = NO;
+				OTHER_LDFLAGS = (
+					"$(inherited)",
+					"-framework",
+					Flutter,
+				);
+				OTHER_LIBTOOLFLAGS = "";
+				PRIVATE_HEADERS_FOLDER_PATH = "";
+				PRODUCT_MODULE_NAME = flutter_inappwebview;
+				PRODUCT_NAME = flutter_inappwebview;
+				PUBLIC_HEADERS_FOLDER_PATH = "";
+				SDKROOT = iphoneos;
+				SKIP_INSTALL = YES;
+				SWIFT_ACTIVE_COMPILATION_CONDITIONS = "$(inherited) ";
+				SWIFT_VERSION = 5.0;
+				TARGETED_DEVICE_FAMILY = "1,2";
+				"VALID_ARCHS[sdk=iphonesimulator*]" = "$(ARCHS_STANDARD)";
+			};
+			name = Debug;
+		};
+		903A0004D3E6651EFD5D2E16214D101B /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_SEARCH_USER_PATHS = NO;
+				CLANG_ANALYZER_LOCALIZABILITY_NONLOCALIZED = YES;
+				CLANG_ANALYZER_NONNULL = YES;
+				CLANG_ANALYZER_NUMBER_OBJECT_CONVERSION = YES_AGGRESSIVE;
+				CLANG_CXX_LANGUAGE_STANDARD = "gnu++14";
+				CLANG_CXX_LIBRARY = "libc++";
+				CLANG_ENABLE_MODULES = YES;
+				CLANG_ENABLE_OBJC_ARC = YES;
+				CLANG_ENABLE_OBJC_WEAK = YES;
+				CLANG_WARN_BLOCK_CAPTURE_AUTORELEASING = YES;
+				CLANG_WARN_BOOL_CONVERSION = YES;
+				CLANG_WARN_COMMA = YES;
+				CLANG_WARN_CONSTANT_CONVERSION = YES;
+				CLANG_WARN_DEPRECATED_OBJC_IMPLEMENTATIONS = YES;
+				CLANG_WARN_DIRECT_OBJC_ISA_USAGE = YES_ERROR;
+				CLANG_WARN_DOCUMENTATION_COMMENTS = YES;
+				CLANG_WARN_EMPTY_BODY = YES;
+				CLANG_WARN_ENUM_CONVERSION = YES;
+				CLANG_WARN_INFINITE_RECURSION = YES;
+				CLANG_WARN_INT_CONVERSION = YES;
+				CLANG_WARN_NON_LITERAL_NULL_CONVERSION = YES;
+				CLANG_WARN_OBJC_IMPLICIT_RETAIN_SELF = YES;
+				CLANG_WARN_OBJC_LITERAL_CONVERSION = YES;
+				CLANG_WARN_OBJC_ROOT_CLASS = YES_ERROR;
+				CLANG_WARN_QUOTED_INCLUDE_IN_FRAMEWORK_HEADER = YES;
+				CLANG_WARN_RANGE_LOOP_ANALYSIS = YES;
+				CLANG_WARN_STRICT_PROTOTYPES = YES;
+				CLANG_WARN_SUSPICIOUS_MOVE = YES;
+				CLANG_WARN_UNGUARDED_AVAILABILITY = YES_AGGRESSIVE;
+				CLANG_WARN_UNREACHABLE_CODE = YES;
+				CLANG_WARN__DUPLICATE_METHOD_MATCH = YES;
+				COPY_PHASE_STRIP = NO;
+				DEBUG_INFORMATION_FORMAT = "dwarf-with-dsym";
+				ENABLE_NS_ASSERTIONS = NO;
+				ENABLE_STRICT_OBJC_MSGSEND = YES;
+				GCC_C_LANGUAGE_STANDARD = gnu11;
+				GCC_NO_COMMON_BLOCKS = YES;
+				GCC_PREPROCESSOR_DEFINITIONS = (
+					"POD_CONFIGURATION_RELEASE=1",
+					"$(inherited)",
+				);
+				GCC_WARN_64_TO_32_BIT_CONVERSION = YES;
+				GCC_WARN_ABOUT_RETURN_TYPE = YES_ERROR;
+				GCC_WARN_UNDECLARED_SELECTOR = YES;
+				GCC_WARN_UNINITIALIZED_AUTOS = YES_AGGRESSIVE;
+				GCC_WARN_UNUSED_FUNCTION = YES;
+				GCC_WARN_UNUSED_VARIABLE = YES;
+				IPHONEOS_DEPLOYMENT_TARGET = 11.0;
+				MTL_ENABLE_DEBUG_INFO = NO;
+				MTL_FAST_MATH = YES;
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				STRIP_INSTALLED_PRODUCT = NO;
+				SWIFT_COMPILATION_MODE = wholemodule;
+				SWIFT_OPTIMIZATION_LEVEL = "-O";
+				SWIFT_VERSION = 5.0;
+				SYMROOT = "${SRCROOT}/../build";
+			};
+			name = Release;
+		};
+		9498D2532E60DBDF41603C51B60E35E8 /* Profile */ = {
+			isa = XCBuildConfiguration;
+			baseConfigurationReference = A9FBB571BED4B864EEEB686B13465C7E /* Flutter.release.xcconfig */;
+			buildSettings = {
+				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
+				ASSETCATALOG_COMPILER_GLOBAL_ACCENT_COLOR_NAME = AccentColor;
+				CLANG_ENABLE_OBJC_WEAK = NO;
+				IPHONEOS_DEPLOYMENT_TARGET = 11.0;
+				LD_RUNPATH_SEARCH_PATHS = (
+					"$(inherited)",
+					"@executable_path/Frameworks",
+				);
+				SDKROOT = iphoneos;
+				TARGETED_DEVICE_FAMILY = "1,2";
+				VALIDATE_PRODUCT = YES;
+			};
+			name = Profile;
+		};
+		9BC40A75AD09CE1AE99673391C67C931 /* Release */ = {
+			isa = XCBuildConfiguration;
+			baseConfigurationReference = F9D86489E6638235A6B5928C4F86E442 /* Pods-Runner.release.xcconfig */;
+			buildSettings = {
+				ALWAYS_EMBED_SWIFT_STANDARD_LIBRARIES = NO;
+				CLANG_ENABLE_OBJC_WEAK = NO;
+				CLANG_WARN_QUOTED_INCLUDE_IN_FRAMEWORK_HEADER = NO;
+				"CODE_SIGN_IDENTITY[sdk=appletvos*]" = "";
+				"CODE_SIGN_IDENTITY[sdk=iphoneos*]" = "";
+				"CODE_SIGN_IDENTITY[sdk=watchos*]" = "";
+				ENABLE_BITCODE = NO;
+				"EXCLUDED_ARCHS[sdk=iphoneos*]" = "$(inherited) armv7";
+				"EXCLUDED_ARCHS[sdk=iphonesimulator*]" = "$(inherited) i386";
+				"FRAMEWORK_SEARCH_PATHS[sdk=iphoneos*]" = (
+					"\"/Users/racmahul/flutter/bin/cache/artifacts/engine/ios-release/Flutter.xcframework/ios-arm64\"",
+					"$(inherited)",
+				);
+				"FRAMEWORK_SEARCH_PATHS[sdk=iphonesimulator*]" = (
+					"\"/Users/racmahul/flutter/bin/cache/artifacts/engine/ios-release/Flutter.xcframework/ios-arm64_x86_64-simulator\"",
+					"$(inherited)",
+				);
+				IPHONEOS_DEPLOYMENT_TARGET = 11.0;
+				MACH_O_TYPE = staticlib;
+				MODULEMAP_FILE = "Target Support Files/Pods-Runner/Pods-Runner.modulemap";
+				OTHER_LDFLAGS = (
+					"$(inherited)",
+					"-framework",
+					Flutter,
+				);
+				OTHER_LIBTOOLFLAGS = "";
+				PODS_ROOT = "$(SRCROOT)";
+				PRODUCT_BUNDLE_IDENTIFIER = "org.cocoapods.${PRODUCT_NAME:rfc1034identifier}";
+				SDKROOT = iphoneos;
+				SKIP_INSTALL = YES;
+				TARGETED_DEVICE_FAMILY = "1,2";
+				VALIDATE_PRODUCT = YES;
+				"VALID_ARCHS[sdk=iphonesimulator*]" = "$(ARCHS_STANDARD)";
+			};
+			name = Release;
+		};
+		A045C7A6D99F4F60840B1F19D32848E6 /* Debug */ = {
+			isa = XCBuildConfiguration;
+			baseConfigurationReference = 21C9D8E89D3D842BF73C7F74EC8225A0 /* Flutter.debug.xcconfig */;
+			buildSettings = {
+				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
+				ASSETCATALOG_COMPILER_GLOBAL_ACCENT_COLOR_NAME = AccentColor;
+				CLANG_ENABLE_OBJC_WEAK = NO;
+				IPHONEOS_DEPLOYMENT_TARGET = 11.0;
+				LD_RUNPATH_SEARCH_PATHS = (
+					"$(inherited)",
+					"@executable_path/Frameworks",
+				);
+				ONLY_ACTIVE_ARCH = NO;
+				SDKROOT = iphoneos;
+				TARGETED_DEVICE_FAMILY = "1,2";
+			};
+			name = Debug;
+		};
+		A56411910C21B1B16892CDB8F16E72CE /* Profile */ = {
+			isa = XCBuildConfiguration;
+			baseConfigurationReference = D5A750D6BA764649B639C704644743E7 /* flutter_inappwebview.release.xcconfig */;
+			buildSettings = {
+				CLANG_WARN_QUOTED_INCLUDE_IN_FRAMEWORK_HEADER = NO;
+				"CODE_SIGN_IDENTITY[sdk=appletvos*]" = "";
+				"CODE_SIGN_IDENTITY[sdk=iphoneos*]" = "";
+				"CODE_SIGN_IDENTITY[sdk=watchos*]" = "";
+				ENABLE_BITCODE = NO;
+				"EXCLUDED_ARCHS[sdk=iphoneos*]" = "$(inherited) armv7";
+				"EXCLUDED_ARCHS[sdk=iphonesimulator*]" = "$(inherited) i386";
+				"FRAMEWORK_SEARCH_PATHS[sdk=iphoneos*]" = (
+					"\"/Users/racmahul/flutter/bin/cache/artifacts/engine/ios-release/Flutter.xcframework/ios-arm64\"",
+					"$(inherited)",
+				);
+				"FRAMEWORK_SEARCH_PATHS[sdk=iphonesimulator*]" = (
+					"\"/Users/racmahul/flutter/bin/cache/artifacts/engine/ios-release/Flutter.xcframework/ios-arm64_x86_64-simulator\"",
+					"$(inherited)",
+				);
+				GCC_PREFIX_HEADER = "Target Support Files/flutter_inappwebview/flutter_inappwebview-prefix.pch";
+				MODULEMAP_FILE = Headers/Public/flutter_inappwebview/flutter_inappwebview.modulemap;
+				OTHER_LDFLAGS = (
+					"$(inherited)",
+					"-framework",
+					Flutter,
+				);
+				OTHER_LIBTOOLFLAGS = "";
+				PRIVATE_HEADERS_FOLDER_PATH = "";
+				PRODUCT_MODULE_NAME = flutter_inappwebview;
+				PRODUCT_NAME = flutter_inappwebview;
+				PUBLIC_HEADERS_FOLDER_PATH = "";
+				SDKROOT = iphoneos;
+				SKIP_INSTALL = YES;
+				SWIFT_ACTIVE_COMPILATION_CONDITIONS = "$(inherited) ";
+				SWIFT_VERSION = 5.0;
+				TARGETED_DEVICE_FAMILY = "1,2";
+				VALIDATE_PRODUCT = YES;
+				"VALID_ARCHS[sdk=iphonesimulator*]" = "$(ARCHS_STANDARD)";
+			};
+			name = Profile;
+		};
+		ABF40D931D6385AAE5F2576C9F67DBBA /* Profile */ = {
+			isa = XCBuildConfiguration;
+			baseConfigurationReference = 00689F4787B06C5F3738F54EBBC2B67E /* OrderedSet.release.xcconfig */;
+			buildSettings = {
+				"CODE_SIGN_IDENTITY[sdk=appletvos*]" = "";
+				"CODE_SIGN_IDENTITY[sdk=iphoneos*]" = "";
+				"CODE_SIGN_IDENTITY[sdk=watchos*]" = "";
+				GCC_PREFIX_HEADER = "Target Support Files/OrderedSet/OrderedSet-prefix.pch";
+				IPHONEOS_DEPLOYMENT_TARGET = 8.0;
+				MODULEMAP_FILE = Headers/Public/OrderedSet/OrderedSet.modulemap;
+				OTHER_LDFLAGS = "";
+				OTHER_LIBTOOLFLAGS = "";
+				PRIVATE_HEADERS_FOLDER_PATH = "";
+				PRODUCT_MODULE_NAME = OrderedSet;
+				PRODUCT_NAME = OrderedSet;
+				PUBLIC_HEADERS_FOLDER_PATH = "";
+				SDKROOT = iphoneos;
+				SKIP_INSTALL = YES;
+				SWIFT_ACTIVE_COMPILATION_CONDITIONS = "$(inherited) ";
+				SWIFT_VERSION = 5.0;
+				TARGETED_DEVICE_FAMILY = "1,2";
+				VALIDATE_PRODUCT = YES;
+			};
+			name = Profile;
+		};
+		B4EFE046ACF8F37157F6E322C7FCFC28 /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_SEARCH_USER_PATHS = NO;
+				CLANG_ANALYZER_LOCALIZABILITY_NONLOCALIZED = YES;
+				CLANG_ANALYZER_NONNULL = YES;
+				CLANG_ANALYZER_NUMBER_OBJECT_CONVERSION = YES_AGGRESSIVE;
+				CLANG_CXX_LANGUAGE_STANDARD = "gnu++14";
+				CLANG_CXX_LIBRARY = "libc++";
+				CLANG_ENABLE_MODULES = YES;
+				CLANG_ENABLE_OBJC_ARC = YES;
+				CLANG_ENABLE_OBJC_WEAK = YES;
+				CLANG_WARN_BLOCK_CAPTURE_AUTORELEASING = YES;
+				CLANG_WARN_BOOL_CONVERSION = YES;
+				CLANG_WARN_COMMA = YES;
+				CLANG_WARN_CONSTANT_CONVERSION = YES;
+				CLANG_WARN_DEPRECATED_OBJC_IMPLEMENTATIONS = YES;
+				CLANG_WARN_DIRECT_OBJC_ISA_USAGE = YES_ERROR;
+				CLANG_WARN_DOCUMENTATION_COMMENTS = YES;
+				CLANG_WARN_EMPTY_BODY = YES;
+				CLANG_WARN_ENUM_CONVERSION = YES;
+				CLANG_WARN_INFINITE_RECURSION = YES;
+				CLANG_WARN_INT_CONVERSION = YES;
+				CLANG_WARN_NON_LITERAL_NULL_CONVERSION = YES;
+				CLANG_WARN_OBJC_IMPLICIT_RETAIN_SELF = YES;
+				CLANG_WARN_OBJC_LITERAL_CONVERSION = YES;
+				CLANG_WARN_OBJC_ROOT_CLASS = YES_ERROR;
+				CLANG_WARN_QUOTED_INCLUDE_IN_FRAMEWORK_HEADER = YES;
+				CLANG_WARN_RANGE_LOOP_ANALYSIS = YES;
+				CLANG_WARN_STRICT_PROTOTYPES = YES;
+				CLANG_WARN_SUSPICIOUS_MOVE = YES;
+				CLANG_WARN_UNGUARDED_AVAILABILITY = YES_AGGRESSIVE;
+				CLANG_WARN_UNREACHABLE_CODE = YES;
+				CLANG_WARN__DUPLICATE_METHOD_MATCH = YES;
+				COPY_PHASE_STRIP = NO;
+				DEBUG_INFORMATION_FORMAT = dwarf;
+				ENABLE_STRICT_OBJC_MSGSEND = YES;
+				ENABLE_TESTABILITY = YES;
+				GCC_C_LANGUAGE_STANDARD = gnu11;
+				GCC_DYNAMIC_NO_PIC = NO;
+				GCC_NO_COMMON_BLOCKS = YES;
+				GCC_OPTIMIZATION_LEVEL = 0;
+				GCC_PREPROCESSOR_DEFINITIONS = (
+					"POD_CONFIGURATION_DEBUG=1",
+					"DEBUG=1",
+					"$(inherited)",
+				);
+				GCC_WARN_64_TO_32_BIT_CONVERSION = YES;
+				GCC_WARN_ABOUT_RETURN_TYPE = YES_ERROR;
+				GCC_WARN_UNDECLARED_SELECTOR = YES;
+				GCC_WARN_UNINITIALIZED_AUTOS = YES_AGGRESSIVE;
+				GCC_WARN_UNUSED_FUNCTION = YES;
+				GCC_WARN_UNUSED_VARIABLE = YES;
+				IPHONEOS_DEPLOYMENT_TARGET = 11.0;
+				MTL_ENABLE_DEBUG_INFO = INCLUDE_SOURCE;
+				MTL_FAST_MATH = YES;
+				ONLY_ACTIVE_ARCH = YES;
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				STRIP_INSTALLED_PRODUCT = NO;
+				SWIFT_ACTIVE_COMPILATION_CONDITIONS = DEBUG;
+				SWIFT_OPTIMIZATION_LEVEL = "-Onone";
+				SWIFT_VERSION = 5.0;
+				SYMROOT = "${SRCROOT}/../build";
+			};
+			name = Debug;
+		};
+		DCF364D2CA5F270CAD355FD2FAFE3B13 /* Profile */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_SEARCH_USER_PATHS = NO;
+				CLANG_ANALYZER_LOCALIZABILITY_NONLOCALIZED = YES;
+				CLANG_ANALYZER_NONNULL = YES;
+				CLANG_ANALYZER_NUMBER_OBJECT_CONVERSION = YES_AGGRESSIVE;
+				CLANG_CXX_LANGUAGE_STANDARD = "gnu++14";
+				CLANG_CXX_LIBRARY = "libc++";
+				CLANG_ENABLE_MODULES = YES;
+				CLANG_ENABLE_OBJC_ARC = YES;
+				CLANG_ENABLE_OBJC_WEAK = YES;
+				CLANG_WARN_BLOCK_CAPTURE_AUTORELEASING = YES;
+				CLANG_WARN_BOOL_CONVERSION = YES;
+				CLANG_WARN_COMMA = YES;
+				CLANG_WARN_CONSTANT_CONVERSION = YES;
+				CLANG_WARN_DEPRECATED_OBJC_IMPLEMENTATIONS = YES;
+				CLANG_WARN_DIRECT_OBJC_ISA_USAGE = YES_ERROR;
+				CLANG_WARN_DOCUMENTATION_COMMENTS = YES;
+				CLANG_WARN_EMPTY_BODY = YES;
+				CLANG_WARN_ENUM_CONVERSION = YES;
+				CLANG_WARN_INFINITE_RECURSION = YES;
+				CLANG_WARN_INT_CONVERSION = YES;
+				CLANG_WARN_NON_LITERAL_NULL_CONVERSION = YES;
+				CLANG_WARN_OBJC_IMPLICIT_RETAIN_SELF = YES;
+				CLANG_WARN_OBJC_LITERAL_CONVERSION = YES;
+				CLANG_WARN_OBJC_ROOT_CLASS = YES_ERROR;
+				CLANG_WARN_QUOTED_INCLUDE_IN_FRAMEWORK_HEADER = YES;
+				CLANG_WARN_RANGE_LOOP_ANALYSIS = YES;
+				CLANG_WARN_STRICT_PROTOTYPES = YES;
+				CLANG_WARN_SUSPICIOUS_MOVE = YES;
+				CLANG_WARN_UNGUARDED_AVAILABILITY = YES_AGGRESSIVE;
+				CLANG_WARN_UNREACHABLE_CODE = YES;
+				CLANG_WARN__DUPLICATE_METHOD_MATCH = YES;
+				COPY_PHASE_STRIP = NO;
+				DEBUG_INFORMATION_FORMAT = "dwarf-with-dsym";
+				ENABLE_NS_ASSERTIONS = NO;
+				ENABLE_STRICT_OBJC_MSGSEND = YES;
+				GCC_C_LANGUAGE_STANDARD = gnu11;
+				GCC_NO_COMMON_BLOCKS = YES;
+				GCC_PREPROCESSOR_DEFINITIONS = (
+					"POD_CONFIGURATION_PROFILE=1",
+					"$(inherited)",
+				);
+				GCC_WARN_64_TO_32_BIT_CONVERSION = YES;
+				GCC_WARN_ABOUT_RETURN_TYPE = YES_ERROR;
+				GCC_WARN_UNDECLARED_SELECTOR = YES;
+				GCC_WARN_UNINITIALIZED_AUTOS = YES_AGGRESSIVE;
+				GCC_WARN_UNUSED_FUNCTION = YES;
+				GCC_WARN_UNUSED_VARIABLE = YES;
+				IPHONEOS_DEPLOYMENT_TARGET = 11.0;
+				MTL_ENABLE_DEBUG_INFO = NO;
+				MTL_FAST_MATH = YES;
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				STRIP_INSTALLED_PRODUCT = NO;
+				SWIFT_COMPILATION_MODE = wholemodule;
+				SWIFT_OPTIMIZATION_LEVEL = "-O";
+				SWIFT_VERSION = 5.0;
+				SYMROOT = "${SRCROOT}/../build";
+			};
+			name = Profile;
+		};
+		EB4FE8220952592611096D1B590FB6EF /* Profile */ = {
+			isa = XCBuildConfiguration;
+			baseConfigurationReference = EBE9BF3E22F65735A1D716F2DBFBA401 /* Pods-Runner.profile.xcconfig */;
+			buildSettings = {
+				ALWAYS_EMBED_SWIFT_STANDARD_LIBRARIES = NO;
+				CLANG_ENABLE_OBJC_WEAK = NO;
+				CLANG_WARN_QUOTED_INCLUDE_IN_FRAMEWORK_HEADER = NO;
+				"CODE_SIGN_IDENTITY[sdk=appletvos*]" = "";
+				"CODE_SIGN_IDENTITY[sdk=iphoneos*]" = "";
+				"CODE_SIGN_IDENTITY[sdk=watchos*]" = "";
+				ENABLE_BITCODE = NO;
+				"EXCLUDED_ARCHS[sdk=iphoneos*]" = "$(inherited) armv7";
+				"EXCLUDED_ARCHS[sdk=iphonesimulator*]" = "$(inherited) i386";
+				"FRAMEWORK_SEARCH_PATHS[sdk=iphoneos*]" = (
+					"\"/Users/racmahul/flutter/bin/cache/artifacts/engine/ios-release/Flutter.xcframework/ios-arm64\"",
+					"$(inherited)",
+				);
+				"FRAMEWORK_SEARCH_PATHS[sdk=iphonesimulator*]" = (
+					"\"/Users/racmahul/flutter/bin/cache/artifacts/engine/ios-release/Flutter.xcframework/ios-arm64_x86_64-simulator\"",
+					"$(inherited)",
+				);
+				IPHONEOS_DEPLOYMENT_TARGET = 11.0;
+				MACH_O_TYPE = staticlib;
+				MODULEMAP_FILE = "Target Support Files/Pods-Runner/Pods-Runner.modulemap";
+				OTHER_LDFLAGS = (
+					"$(inherited)",
+					"-framework",
+					Flutter,
+				);
+				OTHER_LIBTOOLFLAGS = "";
+				PODS_ROOT = "$(SRCROOT)";
+				PRODUCT_BUNDLE_IDENTIFIER = "org.cocoapods.${PRODUCT_NAME:rfc1034identifier}";
+				SDKROOT = iphoneos;
+				SKIP_INSTALL = YES;
+				TARGETED_DEVICE_FAMILY = "1,2";
+				VALIDATE_PRODUCT = YES;
+				"VALID_ARCHS[sdk=iphonesimulator*]" = "$(ARCHS_STANDARD)";
+			};
+			name = Profile;
+		};
+/* End XCBuildConfiguration section */
+
+/* Begin XCConfigurationList section */
+		4821239608C13582E20E6DA73FD5F1F9 /* Build configuration list for PBXProject "Pods" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				B4EFE046ACF8F37157F6E322C7FCFC28 /* Debug */,
+				DCF364D2CA5F270CAD355FD2FAFE3B13 /* Profile */,
+				903A0004D3E6651EFD5D2E16214D101B /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+		50470186C10C8E6F524BE972361A74E2 /* Build configuration list for PBXNativeTarget "flutter_inappwebview" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				7821DA362C717F02108A8E05B738E2A7 /* Debug */,
+				A56411910C21B1B16892CDB8F16E72CE /* Profile */,
+				5CDA82F74C722E5EB69C0BAE31C710A9 /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+		517109CE78FFAAB498A766C44D2E01FC /* Build configuration list for PBXNativeTarget "OrderedSet" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				39D34B28B2702785ABB2A863B20ACDBB /* Debug */,
+				ABF40D931D6385AAE5F2576C9F67DBBA /* Profile */,
+				641FEF24DFD795497758ED10D504B3B9 /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+		94078A06C17E946ADC1F2C06726219E5 /* Build configuration list for PBXAggregateTarget "Flutter" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				A045C7A6D99F4F60840B1F19D32848E6 /* Debug */,
+				9498D2532E60DBDF41603C51B60E35E8 /* Profile */,
+				123B0D65A35211FC43B8BEE770443D25 /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+		BF69737D2959314445F3BCE26844055A /* Build configuration list for PBXNativeTarget "Pods-Runner" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				39ACF7C9F9F65C8AAF882586C5DE1C45 /* Debug */,
+				EB4FE8220952592611096D1B590FB6EF /* Profile */,
+				9BC40A75AD09CE1AE99673391C67C931 /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+/* End XCConfigurationList section */
+	};
+	rootObject = BFDFE7DC352907FC980B868725387E98 /* Project object */;
+}
